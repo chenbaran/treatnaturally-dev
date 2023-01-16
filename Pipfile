@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-filter = "*"
+pillow = "*"
+drf-nested-routers = "*"
+django-debug-toolbar = "*"
+pytest = "*"
+django-cors-headers = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+mysqlclient = "*"
+django-redis = "*"
+gunicorn = "*"
+celery = "*"
+whitenoise = "*"
+django-cloudinary-storage = "*"
+cloudinary = "*"
+
+[dev-packages]
+locust = "*"
+
+[requires]
+python_version = "3.11"

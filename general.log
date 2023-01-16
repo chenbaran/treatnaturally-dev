@@ -1,0 +1,22 @@
+2023-01-11 20:42:21,598 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 20:42:40,291 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\treatnaturallystore\settings\dev.py changed, reloading.
+2023-01-11 20:42:41,623 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 20:43:21,926 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 20:49:44,796 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:05:03,090 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\store\models.py changed, reloading.
+2023-01-11 21:05:04,231 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:06:37,496 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\store\models.py changed, reloading.
+2023-01-11 21:06:38,619 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:06:44,149 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\store\models.py changed, reloading.
+2023-01-11 21:06:45,339 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:07:55,543 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\store\models.py changed, reloading.
+2023-01-11 21:07:56,668 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:08:08,434 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\store\models.py changed, reloading.
+2023-01-11 21:08:09,691 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:31:07,492 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-11 21:31:07,535 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-11 21:31:10,247 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-11 21:32:14,315 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\DjangoCleanCode\treatnaturallystore\treatnaturallystore\urls.py changed, reloading.
+2023-01-11 21:32:15,807 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-11 21:51:03,502 (INFO) - django.utils.autoreload - C:\Users\femto\.virtualenvs\treatnaturallystore-7dX3FTcm\Lib\site-packages\pkg_resources\_vendor\more_itertools\recipes.py changed, reloading.
+2023-01-11 21:51:04,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
