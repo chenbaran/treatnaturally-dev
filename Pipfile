@@ -21,6 +21,9 @@ celery = "*"
 whitenoise = "*"
 django-cloudinary-storage = "*"
 cloudinary = "*"
+dj-database-url = "*"
+redis = "*"
+flower = "*"
 
 [dev-packages]
 locust = "*"

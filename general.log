@@ -21,3 +21,102 @@
 2023-01-11 21:51:03,502 (INFO) - django.utils.autoreload - C:\Users\femto\.virtualenvs\treatnaturallystore-7dX3FTcm\Lib\site-packages\pkg_resources\_vendor\more_itertools\recipes.py changed, reloading.
 2023-01-11 21:51:04,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-18 21:07:50,450 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 21:07:54,325 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:08:02,267 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-01-18 21:08:26,312 (WARNING) - django.request - Bad Request: /auth/users/
+2023-01-18 21:08:26,609 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:08:26,861 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:08:38,251 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:08:38,458 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:09:25,700 (WARNING) - django.request - Method Not Allowed: /auth/jwt/createtoken
+2023-01-18 21:09:25,981 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:10:13,073 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:10:13,250 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:10:30,367 (WARNING) - django.request - Method Not Allowed: /createtokens/
+2023-01-18 21:10:43,747 (ERROR) - django.request - Internal Server Error: /createtokens/
+Traceback (most recent call last):
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework_simplejwt\views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "D:\WORK\treatnaturallydev\core\serializers.py", line 32, in validate
+    data.update({'membership': self.user.customer.membership })
+                               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 463, in __get__
+    raise self.RelatedObjectDoesNotExist(
+core.models.User.customer.RelatedObjectDoesNotExist: User has no customer.
+2023-01-18 21:10:44,162 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:10:44,353 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 21:17:22,008 (WARNING) - django.request - Forbidden: /store/customers/
+2023-01-18 21:17:29,569 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\WORK\treatnaturallydev\store\views.py", line 100, in me
+    customer = Customer.objects.get(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.Customer.DoesNotExist: Customer matching query does not exist.
+2023-01-18 21:54:13,846 (INFO) - django.utils.autoreload - C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\pytz\lazy.py changed, reloading.
+2023-01-18 21:54:17,768 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 21:54:21,477 (INFO) - django.utils.autoreload - C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\pkg_resources\_vendor\pyparsing\common.py changed, reloading.
+2023-01-18 21:54:24,609 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 21:54:30,733 (INFO) - django.utils.autoreload - C:\Users\CB\.virtualenvs\treatnaturallydev-e_likyq6\Lib\site-packages\markupsafe\__init__.py changed, reloading.
+2023-01-18 21:54:32,235 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 21:57:39,154 (WARNING) - django.request - Forbidden: /store/customers/
+2023-01-18 21:58:47,328 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 22:03:29,650 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 22:05:08,166 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 22:05:08,659 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-18 22:07:36,792 (INFO) - django.utils.autoreload - D:\WORK\treatnaturallydev\store\apps.py changed, reloading.
+2023-01-18 22:08:29,018 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
