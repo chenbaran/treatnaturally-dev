@@ -20,3 +20,4 @@
 2023-01-11 21:32:15,807 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-11 21:51:03,502 (INFO) - django.utils.autoreload - C:\Users\femto\.virtualenvs\treatnaturallystore-7dX3FTcm\Lib\site-packages\pkg_resources\_vendor\more_itertools\recipes.py changed, reloading.
 2023-01-11 21:51:04,831 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-18 21:07:50,450 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
