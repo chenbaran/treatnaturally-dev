@@ -9,11 +9,6 @@ from uuid import uuid4
 from .validators import validate_file_size
 
 
-class Promotion(models.Model):
-    description = models.CharField(max_length=255)
-    discount = models.FloatField()
-
-
 class Category(models.Model):
     title = models.CharField(max_length=255)
     featured_product = models.ForeignKey(
@@ -50,7 +45,6 @@ class Product(models.Model):
     last_update = models.DateTimeField(auto_now=True)
     category = models.ForeignKey(
         Category, on_delete=models.PROTECT, related_name='products')
-    promotions = models.ManyToManyField(Promotion, blank=True)
 
     def __str__(self) -> str:
         return self.name

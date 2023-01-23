@@ -1562,3 +1562,7 @@ Original exception text was: 'RelatedManager' object has no attribute 'image'.
 2023-01-23 20:13:09,125 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-23 20:13:11,685 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
 2023-01-23 20:13:14,837 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:36:19,252 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-23 20:36:22,165 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:36:26,268 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-23 20:36:27,685 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
