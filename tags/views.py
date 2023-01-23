@@ -6,6 +6,7 @@ from .serializers import TagSerializer
 
 
 class TagViewSet(ModelViewSet):
+    http_method_names = ['get']
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
     search_fields = ['label']
