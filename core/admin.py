@@ -6,6 +6,7 @@ from blog.admin import BlogAdmin, BlogPostImageInline
 from tags.models import TaggedItem
 from store.models import Product
 from blog.models import BlogPost
+from ailments.models import AilmentItem
 from .models import User
 
 @admin.register(User)
@@ -21,12 +22,17 @@ class TagInline(GenericTabularInline):
     autocomplete_fields = ['tag']
     model = TaggedItem
 
+class AilmentInline(GenericTabularInline):
+    autocomplete_fields = ['ailment']
+    model = AilmentItem
+
 
 class CustomProductAdmin(ProductAdmin):
-    inlines = [TagInline, ProductImageInline]
+    inlines = [ProductImageInline, TagInline, AilmentInline]
 
 class CustomBlogAdmin(BlogAdmin):
-    inlines = [TagInline, BlogPostImageInline]
+    inlines = [BlogPostImageInline, TagInline, AilmentInline]
+
 
 
 admin.site.unregister(Product)

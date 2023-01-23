@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Ailment
 
-# Register your models here.
+
+@admin.register(Ailment)
+class AilmentAdmin(admin.ModelAdmin):
+    search_fields = ['title']

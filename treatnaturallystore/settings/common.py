@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'core',
     'tags',
     'blog',
+    'ailments',
 ]
 
 MIDDLEWARE = [

@@ -1474,3 +1474,91 @@ Original exception text was: 'RelatedManager' object has no attribute 'image'.
 2023-01-22 22:02:54,200 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\blog\serializers.py changed, reloading.
 2023-01-22 22:02:59,719 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-22 22:03:36,332 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:57:50,123 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-23 19:57:52,196 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:58:09,752 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-23 19:58:11,289 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:58:46,543 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:58:49,344 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:58:55,867 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:58:57,211 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:25,653 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:59:27,140 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:30,658 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:59:32,023 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:36,259 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:59:39,129 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:43,134 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:59:44,470 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:47,971 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 19:59:49,228 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 19:59:59,000 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:00,458 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:02,388 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:06,043 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:18,448 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:19,807 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:25,624 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:28,444 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:31,480 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:34,465 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:41,241 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:42,753 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:00:46,996 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:00:48,438 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:01:01,447 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\models.py changed, reloading.
+2023-01-23 20:01:02,891 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:06:04,291 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\tags\urls.py changed, reloading.
+2023-01-23 20:06:07,735 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:06:28,405 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\urls.py changed, reloading.
+2023-01-23 20:06:32,003 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:06:39,641 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\urls.py changed, reloading.
+2023-01-23 20:06:43,061 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:08:36,176 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\views.py changed, reloading.
+2023-01-23 20:08:39,245 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:09:40,771 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\admin.py changed, reloading.
+2023-01-23 20:09:42,239 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:09:44,910 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\admin.py changed, reloading.
+2023-01-23 20:09:48,121 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:09:53,673 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\admin.py changed, reloading.
+2023-01-23 20:09:56,544 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:10:01,911 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\admin.py changed, reloading.
+2023-01-23 20:10:04,997 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:10:10,010 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\ailments\admin.py changed, reloading.
+2023-01-23 20:10:13,102 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:00,185 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:01,656 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:05,651 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:08,912 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:16,040 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:17,554 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:22,761 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:25,674 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:34,435 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:35,765 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:38,310 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:39,624 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:11:58,142 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:11:59,510 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:07,145 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:08,743 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:10,937 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:13,464 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:15,575 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:18,200 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:28,796 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:30,220 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:32,819 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:34,200 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:41,727 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:44,835 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:47,541 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:50,324 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:12:53,713 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:12:56,471 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:13:01,889 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:13:03,471 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:13:07,759 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:13:09,125 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-23 20:13:11,685 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\core\admin.py changed, reloading.
+2023-01-23 20:13:14,837 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
