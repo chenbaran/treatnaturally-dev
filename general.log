@@ -1572,3 +1572,13 @@ Original exception text was: 'RelatedManager' object has no attribute 'image'.
 2023-01-23 20:58:03,932 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-23 20:58:34,615 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\tags\views.py changed, reloading.
 2023-01-23 20:58:37,766 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:22:19,718 (INFO) - django.utils.autoreload - C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\pkg_resources\_vendor\jaraco\text\__init__.py changed, reloading.
+2023-01-24 20:22:22,090 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:22:59,117 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-24 20:23:00,489 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:23:03,746 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-24 20:23:04,918 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:23:06,319 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-24 20:23:07,486 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:26:18,677 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
+2023-01-24 20:26:21,457 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

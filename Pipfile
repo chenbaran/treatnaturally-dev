@@ -24,6 +24,7 @@ cloudinary = "*"
 dj-database-url = "*"
 redis = "*"
 flower = "*"
+django-ckeditor = "*"
 
 [dev-packages]
 locust = "*"
