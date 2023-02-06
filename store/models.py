@@ -22,7 +22,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=255)
-    sku = models.CharField(max_length=255, null=True, blank=True)
+    sku = models.CharField(max_length=255, null=True, blank=True, default=1)
     slug = models.SlugField()
     shortDescription = models.TextField(null=True, blank=True)
     fullDescription = models.TextField(null=True, blank=True)
@@ -39,8 +39,6 @@ class Product(models.Model):
     offerend = models.DateTimeField(blank=True, null=True)
     new = models.BooleanField(default=False)
     rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)], null=True, blank=True)
-    saleCount = models.IntegerField(null=True, blank=True)
-    tag = models.CharField(max_length=255, null=True, blank=True)
     stock = models.IntegerField(validators=[MinValueValidator(0)])
     last_update = models.DateTimeField(auto_now=True)
     category = models.ForeignKey(
@@ -68,20 +66,30 @@ class ProductImage(models.Model):
         validators=[validate_file_size])
 
 
+class Interest(models.Model):
+    label = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return self.label
+
 class Customer(models.Model):
+    MEMBERSHIP_FREE = 'F'
     MEMBERSHIP_BRONZE = 'B'
     MEMBERSHIP_SILVER = 'S'
     MEMBERSHIP_GOLD = 'G'
 
     MEMBERSHIP_CHOICES = [
+        (MEMBERSHIP_FREE, 'Free'),
         (MEMBERSHIP_BRONZE, 'Bronze'),
         (MEMBERSHIP_SILVER, 'Silver'),
         (MEMBERSHIP_GOLD, 'Gold'),
     ]
-    phone = models.CharField(max_length=255)
+
+    phone = models.CharField(max_length=255, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
     membership = models.CharField(
-        max_length=1, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_BRONZE)
+        max_length=1, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_FREE)
+    interests = models.ManyToManyField(Interest)
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 

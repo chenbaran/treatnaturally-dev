@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
-from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review
+from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -117,13 +117,18 @@ class UpdateCartItemSerializer(serializers.ModelSerializer):
         model = CartItem
         fields = ['quantity']
 
+class InterestsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Interest
+        fields = ['label']
 
 class CustomerSerializer(serializers.ModelSerializer):
     user_id = serializers.IntegerField(read_only=True)
+    interests = InterestsSerializer
 
     class Meta:
         model = Customer
-        fields = ['id', 'user_id', 'phone', 'birth_date', 'membership']
+        fields = ['id', 'user_id', 'phone', 'birth_date', 'membership', 'interests']
 
 
 class OrderItemSerializer(serializers.ModelSerializer):

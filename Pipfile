@@ -25,6 +25,7 @@ dj-database-url = "*"
 redis = "*"
 flower = "*"
 django-ckeditor = "*"
+django-multiselectfield = "*"
 
 [dev-packages]
 locust = "*"

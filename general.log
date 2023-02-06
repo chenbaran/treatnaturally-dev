@@ -1582,3 +1582,112 @@ Original exception text was: 'RelatedManager' object has no attribute 'image'.
 2023-01-24 20:23:07,486 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-01-24 20:26:18,677 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\treatnaturallystore\settings\common.py changed, reloading.
 2023-01-24 20:26:21,457 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-24 20:26:31,806 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 18:10:40,473 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:47:59,923 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:48:08,584 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 19:48:10,751 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:48:54,153 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\admin.py changed, reloading.
+2023-01-29 19:48:55,695 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:49:01,522 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\admin.py changed, reloading.
+2023-01-29 19:49:04,346 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:49:13,369 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\admin.py changed, reloading.
+2023-01-29 19:49:14,757 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:49:51,727 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\views.py changed, reloading.
+2023-01-29 19:49:53,361 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:50:04,445 (WARNING) - django.request - Not Found: /store/customer
+2023-01-29 19:50:05,020 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:50:07,670 (WARNING) - django.request - Unauthorized: /store/customers/
+2023-01-29 19:50:22,749 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-01-29 19:51:09,520 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 19:51:28,377 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:51:28,617 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:51:35,640 (WARNING) - django.request - Method Not Allowed: /createtokens/
+2023-01-29 19:51:35,887 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:51:50,564 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:51:50,780 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 19:54:48,796 (WARNING) - django.request - Unauthorized: /store/customers/
+2023-01-29 19:58:24,523 (WARNING) - django.request - Forbidden: /store/customers/
+2023-01-29 19:59:02,251 (ERROR) - django.request - Internal Server Error: /admin/store/customer/
+Traceback (most recent call last):
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\contrib\admin\options.py", line 2049, in changelist_view
+    media = self.media + formset.media
+                         ^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\forms\formsets.py", line 518, in media
+    if self.forms:
+       ^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\forms\formsets.py", line 207, in forms
+    for i in range(self.total_form_count())
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\forms\formsets.py", line 182, in total_form_count
+    initial_forms = self.initial_form_count()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\forms\models.py", line 691, in initial_form_count
+    return len(self.get_queryset())
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\query.py", line 376, in __len__
+    self._fetch_all()
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 1385, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 593, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 71, in pre_sql_setup
+    self.setup_query()
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 62, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+                                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 278, in get_select
+    related_klass_infos = self.get_related_selections(select)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CB\.virtualenvs\treatnaturallydev-O5Fzlw50\Lib\site-packages\django\db\models\sql\compiler.py", line 1193, in get_related_selections
+    raise FieldError(
+django.core.exceptions.FieldError: Invalid field name(s) given in select_related: 'interests'. Choices are: user
+2023-01-29 19:59:17,578 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\admin.py changed, reloading.
+2023-01-29 19:59:20,744 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:01:09,722 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 20:01:12,957 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:01:17,090 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 20:01:20,416 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:01:25,920 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 20:01:28,785 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:02:05,769 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 20:02:09,146 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:02:13,372 (INFO) - django.utils.autoreload - D:\WORK\TreatNaturally\treatnaturallydev\store\models.py changed, reloading.
+2023-01-29 20:02:40,227 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-01-29 20:17:47,453 (WARNING) - django.request - Not Found: /favicon.ico
+2023-01-29 20:30:18,196 (WARNING) - django.request - Not Found: /favicon.ico

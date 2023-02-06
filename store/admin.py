@@ -96,6 +96,7 @@ class CustomerAdmin(admin.ModelAdmin):
     list_display = ['first_name', 'last_name',  'membership', 'orders']
     list_editable = ['membership']
     list_per_page = 10
+    list_filter = ['interests']
     list_select_related = ['user']
     ordering = ['user__first_name', 'user__last_name']
     search_fields = ['first_name__istartswith', 'last_name__istartswith']
@@ -115,6 +116,9 @@ class CustomerAdmin(admin.ModelAdmin):
             orders_count=Count('order')
         )
 
+@admin.register(models.Interest)
+class InterestAdmin(admin.ModelAdmin):
+    list_display = ['label']
 
 class OrderItemInline(admin.TabularInline):
     autocomplete_fields = ['product']
