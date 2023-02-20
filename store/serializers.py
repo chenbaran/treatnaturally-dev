@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
-from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest
+from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest, BillingAddress, OptionalShippingAddress
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -122,13 +122,33 @@ class InterestsSerializer(serializers.ModelSerializer):
         model = Interest
         fields = ['label']
 
+
+class OptionalShippingAddressSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = OptionalShippingAddress
+        fields = ['id', 'first_name', 'last_name', 'country', 'city', 'street_address_1', 'street_address_2', 'zipcode', 'order_notes', 'customer']
+    def create(self, validated_data):
+        return OptionalShippingAddress.objects.create(**validated_data)
+
+
+class BillingAddressSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = BillingAddress
+        fields = ['id', 'first_name', 'last_name', 'country', 'city', 'street_address_1', 'street_address_2', 'zipcode', 'email', 'phone', 'order_notes', 'customer']
+
+
 class CustomerSerializer(serializers.ModelSerializer):
     user_id = serializers.IntegerField(read_only=True)
     interests = InterestsSerializer
+    billing_address = BillingAddressSerializer
+    optional_shipping_address = OptionalShippingAddressSerializer
 
     class Meta:
         model = Customer
-        fields = ['id', 'user_id', 'phone', 'birth_date', 'membership', 'interests']
+        fields = ['id', 'user_id', 'phone', 'birth_date', 'membership', 'interests', 'billing_address', 'optional_shipping_address']
+    
+
+            
 
 
 class OrderItemSerializer(serializers.ModelSerializer):
@@ -190,5 +210,8 @@ class CreateOrderSerializer(serializers.Serializer):
             order_created.send_robust(self.__class__, order=order)
 
             return order
+
+
+
 
 

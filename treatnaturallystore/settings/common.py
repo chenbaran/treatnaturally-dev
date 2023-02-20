@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'ailments',
 ]
 
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',

@@ -3,6 +3,7 @@ from django.db.models.aggregates import Count
 from django.db.models.query import QuerySet
 from django.utils.html import format_html, urlencode
 from django.urls import reverse
+from django import forms
 from . import models
 
 
@@ -91,10 +92,23 @@ class CategoryAdmin(admin.ModelAdmin):
         )
 
 
+
+class BillingAddressInline(admin.StackedInline):
+    model = models.BillingAddress
+    fields = ['first_name', 'last_name', 'country', 'city', 'street_address_1', 'street_address_2', 'zipcode', 'email', 'phone']
+
+class OptionalShippingAddressInline(admin.StackedInline):
+    model = models.OptionalShippingAddress
+    fields = ['first_name', 'last_name', 'country', 'city', 'street_address_1', 'street_address_2', 'zipcode']
+
+
+
 @admin.register(models.Customer)
 class CustomerAdmin(admin.ModelAdmin):
+    exclude = ('billing_address', 'optional_shipping_address')
     list_display = ['first_name', 'last_name',  'membership', 'orders']
     list_editable = ['membership']
+    inlines = [BillingAddressInline, OptionalShippingAddressInline]
     list_per_page = 10
     list_filter = ['interests']
     list_select_related = ['user']
@@ -116,6 +130,8 @@ class CustomerAdmin(admin.ModelAdmin):
             orders_count=Count('order')
         )
 
+
+
 @admin.register(models.Interest)
 class InterestAdmin(admin.ModelAdmin):
     list_display = ['label']
@@ -127,9 +143,26 @@ class OrderItemInline(admin.TabularInline):
     model = models.OrderItem
     extra = 0
 
+    
 
 @admin.register(models.Order)
 class OrderAdmin(admin.ModelAdmin):
     autocomplete_fields = ['customer']
     inlines = [OrderItemInline]
-    list_display = ['id', 'placed_at', 'customer']
+    list_filter = ['customer']
+    list_display = ['id', 'placed_at', 'customer', 'shipping_address', 'shipping_contact_details']
+    fields = ['customer', 'billing_address', 'optional_shipping_address', 'shipping_contact_details']
+    readonly_fields = ['billing_address', 'optional_shipping_address', 'shipping_contact_details']
+
+
+    def shipping_address(self, instance):
+        street_address_1 = instance.billing_address.street_address_1
+        street_address_2 = instance.billing_address.street_address_2
+        city = instance.billing_address.city
+        country = instance.billing_address.country
+        return street_address_1 + ' ' + street_address_2 + ', ' + city + ', ' + country
+    
+    def shipping_contact_details(self, instance):
+        email = instance.billing_address.email
+        phone = instance.billing_address.phone
+        return format_html('<a href="mailto:{}">{}<a/> | <a href="tel:{}">{}</a>', email, email, phone, phone)

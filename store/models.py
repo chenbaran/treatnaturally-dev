@@ -72,6 +72,37 @@ class Interest(models.Model):
     def __str__(self) -> str:
         return self.label
 
+class BillingAddress(models.Model):
+    first_name = models.CharField(max_length=255)
+    last_name = models.CharField(max_length=255)
+    country = models.CharField(max_length = 100)
+    city = models.CharField(max_length=100)
+    street_address_1 = models.CharField(max_length=255)
+    street_address_2 = models.CharField(max_length=255, blank=True)
+    zipcode = models.CharField(max_length=30, blank=True)
+    email = models.EmailField()
+    phone = models.CharField(max_length=31)
+    order_notes = models.TextField(max_length=1000, blank=True)
+    customer = models.OneToOneField('Customer', on_delete=models.CASCADE, null=True, blank=True)
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name + ' - ' + self.street_address_1 + ' ' + self.street_address_2 + ' ' + self.city + ', ' + self.country + ', ' + self.zipcode
+
+
+class OptionalShippingAddress(models.Model):
+    first_name = models.CharField(max_length=255, blank=True)
+    last_name = models.CharField(max_length=255, blank=True)
+    country = models.CharField(max_length = 100, blank=True)
+    city = models.CharField(max_length=100, blank=True)
+    street_address_1 = models.CharField(max_length=255, blank=True)
+    street_address_2 = models.CharField(max_length=255, blank=True)
+    zipcode = models.CharField(max_length=30, blank=True)
+    order_notes = models.TextField(max_length=1000, blank=True)
+    customer = models.OneToOneField('Customer', on_delete=models.CASCADE, null=True, blank=True)
+
+
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name + ' - ' + self.street_address_1 + ' ' + self.street_address_2 + ' ' + self.city + ', ' + self.country + ', ' + self.zipcode
+
 class Customer(models.Model):
     MEMBERSHIP_FREE = 'F'
     MEMBERSHIP_BRONZE = 'B'
@@ -89,9 +120,16 @@ class Customer(models.Model):
     birth_date = models.DateField(null=True, blank=True)
     membership = models.CharField(
         max_length=1, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_FREE)
-    interests = models.ManyToManyField(Interest)
+    interests = models.ManyToManyField(Interest, blank=True)
+    billing_address = models.OneToOneField(BillingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_billing_address')
+    optional_shipping_address = models.OneToOneField(OptionalShippingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_optional_shipping_address')
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+
+    def save(self, *args, **kwargs):
+        if self.billing_address and not self.billing_address.pk:
+            self.billing_address.save()
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'
@@ -125,6 +163,8 @@ class Order(models.Model):
     payment_status = models.CharField(
         max_length=1, choices=PAYMENT_STATUS_CHOICES, default=PAYMENT_STATUS_PENDING)
     customer = models.ForeignKey(Customer, on_delete=models.PROTECT)
+    billing_address = models.ForeignKey(BillingAddress, on_delete=models.PROTECT)
+    optional_shipping_address = models.ForeignKey(OptionalShippingAddress, blank=True, null=True, on_delete=models.CASCADE)
 
     class Meta:
         permissions = [
@@ -139,12 +179,6 @@ class OrderItem(models.Model):
     quantity = models.PositiveSmallIntegerField()
     unit_price = models.DecimalField(max_digits=6, decimal_places=2)
 
-
-class Address(models.Model):
-    street = models.CharField(max_length=255)
-    city = models.CharField(max_length=255)
-    customer = models.ForeignKey(
-        Customer, on_delete=models.CASCADE)
 
 
 class Cart(models.Model):

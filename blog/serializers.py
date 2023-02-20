@@ -15,4 +15,4 @@ class BlogSerializer(serializers.ModelSerializer):
     image = BlogPostImageSerializer(many=True, read_only=True)
     class Meta:
         model = BlogPost
-        fields = ['title', 'content', 'image', 'last_update']
+        fields = ['id', 'title', 'content', 'image', 'last_update']

@@ -13,8 +13,8 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
 from .filters import ProductFilter
-from .models import Cart, CartItem, Category, Customer, Order, OrderItem, Product, ProductImage, Review
-from .serializers import AddCartItemSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CreateOrderSerializer, CustomerSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
+from .models import BillingAddress, Cart, CartItem, Category, Customer, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
+from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CreateOrderSerializer, CustomerSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
 
 
 class ProductViewSet(ModelViewSet):
@@ -101,6 +101,7 @@ class CustomerViewSet(ModelViewSet):
             user_id=request.user.id)
         if request.method == 'GET':
             serializer = CustomerSerializer(customer)
+            print(serializer.data)
             return Response(serializer.data)
         elif request.method == 'PUT':
             serializer = CustomerSerializer(customer, data=request.data)
@@ -114,6 +115,68 @@ class CustomerViewSet(ModelViewSet):
             serializer.update()
             return Response(serializer.data)
 
+class BillingAddressViewSet(ModelViewSet):
+    http_method_names = ['get', 'post', 'put', 'patch', 'delete']
+    permission_classes = [IsAdminUser]
+    serializer_class = BillingAddressSerializer
+    queryset = BillingAddress.objects.all()
+
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
+    def me(self, request):
+        user_id = request.user.id
+        customer = Customer.objects.get(user_id=user_id)
+        billing_address = customer.billing_address
+
+        if request.method in ['GET']:
+            serializer = BillingAddressSerializer(billing_address)
+            print(serializer.data)
+            return Response(serializer.data)
+        elif request.method in ['PUT', 'PATCH']:
+            serializer = BillingAddressSerializer(billing_address, data=request.data)
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+            return Response(serializer.data)
+        elif request.method in ['POST']:
+            serializer = BillingAddressSerializer(billing_address, data=request.data)
+            serializer.is_valid(raise_exception=True)
+            serializer.save(customer=customer)
+            return Response(serializer.data)
+        elif request.method in ['DELETE']:
+            billing_address.delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+
+class OptionalShippingAddressViewSet(ModelViewSet):
+    http_method_names = ['get', 'post', 'put', 'patch', 'delete']
+    permission_classes = [IsAdminUser]
+    serializer_class = OptionalShippingAddressSerializer
+    queryset = OptionalShippingAddress.objects.all()
+
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
+    def me(self, request):
+        user_id = request.user.id
+        customer = Customer.objects.get(user_id=user_id)
+        optional_shipping_address = customer.optional_shipping_address
+
+        if request.method in ['GET']:
+            serializer = OptionalShippingAddressSerializer(optional_shipping_address)
+            print(serializer.data)
+            return Response(serializer.data)
+        elif request.method in ['PUT', 'PATCH']:
+            serializer = OptionalShippingAddressSerializer(optional_shipping_address, data=request.data)
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+            return Response(serializer.data)
+        elif request.method in ['POST']:
+            serializer = OptionalShippingAddressSerializer(optional_shipping_address, data=request.data)
+            serializer.is_valid(raise_exception=True)
+            serializer.save(customer=customer)
+            return Response(serializer.data)
+        elif request.method in ['DELETE']:
+            optional_shipping_address.delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+
+    
+    
 
 class OrderViewSet(ModelViewSet):
     http_method_names = ['get', 'post', 'patch', 'delete', 'head', 'options']
