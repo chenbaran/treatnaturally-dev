@@ -8,7 +8,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action, permission_classes
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.mixins import CreateModelMixin, DestroyModelMixin, RetrieveModelMixin, UpdateModelMixin
-from rest_framework.permissions import AllowAny, DjangoModelPermissions, DjangoModelPermissionsOrAnonReadOnly, IsAdminUser, IsAuthenticated
+from rest_framework.permissions import AllowAny, DjangoModelPermissions, DjangoModelPermissionsOrAnonReadOnly, IsAdminUser, IsAuthenticated, BasePermission
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
@@ -110,18 +110,27 @@ class CustomerViewSet(ModelViewSet):
             return Response(serializer.data)
 
         elif request.method == 'PATCH':
-            serializer = CustomerSerializer(customer, data=request.data)
+            customer = request.user.customer
+            serializer = CustomerSerializer(customer, data=request.data, partial=True)
             serializer.is_valid(raise_exception=True)
-            serializer.update()
+            serializer.update(instance=customer, validated_data=serializer.validated_data)
             return Response(serializer.data)
+
+class IsAdminUserOrPostRequest(BasePermission):
+    def has_permission(self, request, view):
+        if request.method == 'POST':
+            return True
+        return request.user and request.user.is_staff
 
 class BillingAddressViewSet(ModelViewSet):
     http_method_names = ['get', 'post', 'put', 'patch', 'delete']
-    permission_classes = [IsAdminUser]
+    permission_classes = [IsAdminUserOrPostRequest]
     serializer_class = BillingAddressSerializer
     queryset = BillingAddress.objects.all()
 
-    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
+
+
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAdminUserOrPostRequest, IsAuthenticated])
     def me(self, request):
         user_id = request.user.id
         customer = Customer.objects.get(user_id=user_id)
@@ -147,11 +156,11 @@ class BillingAddressViewSet(ModelViewSet):
 
 class OptionalShippingAddressViewSet(ModelViewSet):
     http_method_names = ['get', 'post', 'put', 'patch', 'delete']
-    permission_classes = [IsAdminUser]
+    permission_classes = [IsAdminUserOrPostRequest]
     serializer_class = OptionalShippingAddressSerializer
     queryset = OptionalShippingAddress.objects.all()
 
-    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAdminUserOrPostRequest, IsAuthenticated])
     def me(self, request):
         user_id = request.user.id
         customer = Customer.objects.get(user_id=user_id)

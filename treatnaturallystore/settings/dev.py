@@ -19,7 +19,7 @@ DATABASES = {
         'NAME': 'treatnaturallystore',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': 'Femto1828##'
+        'PASSWORD': 'Femto1828#'
     }
 }
 

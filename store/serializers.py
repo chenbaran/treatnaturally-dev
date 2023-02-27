@@ -139,15 +139,33 @@ class BillingAddressSerializer(serializers.ModelSerializer):
 
 class CustomerSerializer(serializers.ModelSerializer):
     user_id = serializers.IntegerField(read_only=True)
-    interests = InterestsSerializer
+    interests = InterestsSerializer(many=True)
     billing_address = BillingAddressSerializer
     optional_shipping_address = OptionalShippingAddressSerializer
 
     class Meta:
         model = Customer
         fields = ['id', 'user_id', 'phone', 'birth_date', 'membership', 'interests', 'billing_address', 'optional_shipping_address']
-    
 
+    
+    def update(self, instance, validated_data):
+        # Get the interests data from the validated data
+        interests_data = validated_data.pop('interests', None)
+
+        # Call the superclass's update() method to update the other fields
+        instance = super().update(instance, validated_data)
+
+        # If there is interests data, update the customer's interests
+        if interests_data is not None:
+            # Clear the current interests of the customer
+            instance.interests.clear()
+
+            # Create new interest objects for the customer's interests
+            for interest_data in interests_data:
+                interest, _ = Interest.objects.get_or_create(label=interest_data['label'])
+                instance.interests.add(interest)
+
+        return instance
             
 
 

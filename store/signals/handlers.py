@@ -11,9 +11,10 @@ def create_customer_for_new_user(sender, **kwargs):
 
 @receiver(post_save, sender=BillingAddress)
 def update_customer_billing_address(sender, instance, created, **kwargs):
-    if created:
-        instance.customer.billing_address_id = instance.id
-        instance.customer.save()
+    if instance.customer:
+        if created:
+            instance.customer.billing_address_id = instance.id
+            instance.customer.save()
 
 
 @receiver(post_delete, sender=BillingAddress)
@@ -25,9 +26,10 @@ def delete_customer_billing_address(sender, instance, **kwargs):
 
 @receiver(post_save, sender=OptionalShippingAddress)
 def update_customer_optional_shipping_address(sender, instance, created, **kwargs):
-    if created:
-        instance.customer.optional_shipping_address_id = instance.id
-        instance.customer.save()
+    if instance.customer:
+        if created:
+            instance.customer.optional_shipping_address_id = instance.id
+            instance.customer.save()
 
 
 @receiver(post_delete, sender=OptionalShippingAddress)

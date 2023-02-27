@@ -96,6 +96,8 @@ class OptionalShippingAddress(models.Model):
     street_address_1 = models.CharField(max_length=255, blank=True)
     street_address_2 = models.CharField(max_length=255, blank=True)
     zipcode = models.CharField(max_length=30, blank=True)
+    email = models.EmailField()
+    phone = models.CharField(max_length=31)
     order_notes = models.TextField(max_length=1000, blank=True)
     customer = models.OneToOneField('Customer', on_delete=models.CASCADE, null=True, blank=True)
 
