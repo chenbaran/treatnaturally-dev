@@ -4,6 +4,8 @@ from django.http import HttpResponse
 from djoser.serializers import UserSerializer as BaseUserSerializer, UserCreateSerializer as BaseUserCreateSerializer
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
+
+from store.serializers import BillingAddressSerializer, OptionalShippingAddressSerializer
 from .models import User
 from store.models import Customer
 

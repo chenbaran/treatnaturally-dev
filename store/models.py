@@ -106,10 +106,10 @@ class OptionalShippingAddress(models.Model):
         return self.first_name + ' ' + self.last_name + ' - ' + self.street_address_1 + ' ' + self.street_address_2 + ' ' + self.city + ', ' + self.country + ', ' + self.zipcode
 
 class Customer(models.Model):
-    MEMBERSHIP_FREE = 'F'
-    MEMBERSHIP_BRONZE = 'B'
-    MEMBERSHIP_SILVER = 'S'
-    MEMBERSHIP_GOLD = 'G'
+    MEMBERSHIP_FREE = 'Free'
+    MEMBERSHIP_BRONZE = 'Bronze'
+    MEMBERSHIP_SILVER = 'Silver'
+    MEMBERSHIP_GOLD = 'Gold'
 
     MEMBERSHIP_CHOICES = [
         (MEMBERSHIP_FREE, 'Free'),
@@ -121,7 +121,7 @@ class Customer(models.Model):
     phone = models.CharField(max_length=255, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
     membership = models.CharField(
-        max_length=1, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_FREE)
+        max_length=10, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_FREE)
     interests = models.ManyToManyField(Interest, blank=True)
     billing_address = models.OneToOneField(BillingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_billing_address')
     optional_shipping_address = models.OneToOneField(OptionalShippingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_optional_shipping_address')

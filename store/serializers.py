@@ -182,7 +182,7 @@ class OrderSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Order
-        fields = ['id', 'customer', 'placed_at', 'payment_status', 'items']
+        fields = ['id', 'customer', 'billing_address', 'placed_at', 'payment_status', 'items']
 
 
 class UpdateOrderSerializer(serializers.ModelSerializer):
@@ -193,6 +193,8 @@ class UpdateOrderSerializer(serializers.ModelSerializer):
 
 class CreateOrderSerializer(serializers.Serializer):
     cart_id = serializers.UUIDField()
+    billing_address_id = serializers.IntegerField()
+
 
     def validate_cart_id(self, cart_id):
         if not Cart.objects.filter(pk=cart_id).exists():
@@ -210,6 +212,10 @@ class CreateOrderSerializer(serializers.Serializer):
                 user_id=self.context['user_id'])
             order = Order.objects.create(customer=customer)
 
+            billing_address_id = self.validated_data['billing_address_id']
+            billing_address = BillingAddress.objects.get(pk=billing_address_id)
+            order.billing_address = billing_address
+
             cart_items = CartItem.objects \
                 .select_related('product') \
                 .filter(cart_id=cart_id)
@@ -222,9 +228,8 @@ class CreateOrderSerializer(serializers.Serializer):
                 ) for item in cart_items
             ]
             OrderItem.objects.bulk_create(order_items)
-
             Cart.objects.filter(pk=cart_id).delete()
-
+            order.save()
             order_created.send_robust(self.__class__, order=order)
 
             return order

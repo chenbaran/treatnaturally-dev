@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, ViewCustomerHistoryPermission
+from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, IsAdminUserOrPostRequest, ViewCustomerHistoryPermission
 from store.pagination import DefaultPagination
 from django.db.models.aggregates import Count
 from django.shortcuts import get_object_or_404
@@ -110,17 +110,14 @@ class CustomerViewSet(ModelViewSet):
             return Response(serializer.data)
 
         elif request.method == 'PATCH':
+            print(request.data)
             customer = request.user.customer
             serializer = CustomerSerializer(customer, data=request.data, partial=True)
             serializer.is_valid(raise_exception=True)
             serializer.update(instance=customer, validated_data=serializer.validated_data)
             return Response(serializer.data)
 
-class IsAdminUserOrPostRequest(BasePermission):
-    def has_permission(self, request, view):
-        if request.method == 'POST':
-            return True
-        return request.user and request.user.is_staff
+
 
 class BillingAddressViewSet(ModelViewSet):
     http_method_names = ['get', 'post', 'put', 'patch', 'delete']
@@ -130,7 +127,7 @@ class BillingAddressViewSet(ModelViewSet):
 
 
 
-    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAdminUserOrPostRequest, IsAuthenticated])
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
     def me(self, request):
         user_id = request.user.id
         customer = Customer.objects.get(user_id=user_id)
@@ -138,12 +135,12 @@ class BillingAddressViewSet(ModelViewSet):
 
         if request.method in ['GET']:
             serializer = BillingAddressSerializer(billing_address)
-            print(serializer.data)
             return Response(serializer.data)
         elif request.method in ['PUT', 'PATCH']:
+            print(serializer.data)
             serializer = BillingAddressSerializer(billing_address, data=request.data)
             serializer.is_valid(raise_exception=True)
-            serializer.save()
+            serializer.save(customer=customer)
             return Response(serializer.data)
         elif request.method in ['POST']:
             serializer = BillingAddressSerializer(billing_address, data=request.data)
@@ -160,7 +157,7 @@ class OptionalShippingAddressViewSet(ModelViewSet):
     serializer_class = OptionalShippingAddressSerializer
     queryset = OptionalShippingAddress.objects.all()
 
-    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAdminUserOrPostRequest, IsAuthenticated])
+    @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
     def me(self, request):
         user_id = request.user.id
         customer = Customer.objects.get(user_id=user_id)
@@ -168,7 +165,6 @@ class OptionalShippingAddressViewSet(ModelViewSet):
 
         if request.method in ['GET']:
             serializer = OptionalShippingAddressSerializer(optional_shipping_address)
-            print(serializer.data)
             return Response(serializer.data)
         elif request.method in ['PUT', 'PATCH']:
             serializer = OptionalShippingAddressSerializer(optional_shipping_address, data=request.data)
@@ -191,7 +187,7 @@ class OrderViewSet(ModelViewSet):
     http_method_names = ['get', 'post', 'patch', 'delete', 'head', 'options']
 
     def get_permissions(self):
-        if self.request.method in ['PATCH', 'DELETE']:
+        if self.request.method in ['PATCH', 'PUT', 'DELETE']:
             return [IsAdminUser()]
         return [IsAuthenticated()]
 
@@ -220,7 +216,7 @@ class OrderViewSet(ModelViewSet):
         customer_id = Customer.objects.only(
             'id').get(user_id=user.id)
         return Order.objects.filter(customer_id=customer_id)
-
+    
 
 class ProductImageViewSet(ModelViewSet):
     serializer_class = ProductImageSerializer
