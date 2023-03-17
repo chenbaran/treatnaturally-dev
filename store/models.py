@@ -51,12 +51,15 @@ class Product(models.Model):
         ordering = ['name']
 
 class ProductVariation(models.Model):
-    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='variation')
-    color = models.CharField(max_length=255)
-    image = models.ImageField(
-        upload_to='store/images',
-        validators=[validate_file_size]
-    )
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='variations')
+    quantity = models.IntegerField(validators=[MinValueValidator(1)], null=True, blank=True)
+    price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
+    sku = models.CharField(max_length=255, null=True, blank=True)
+    stock = models.IntegerField(validators=[MinValueValidator(0)], null=True, blank=True)
+    image = models.ImageField(upload_to='store/images', validators=[validate_file_size], null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.product.name} - {self.quantity}"
 
 
 class ProductImage(models.Model):
@@ -83,7 +86,7 @@ class BillingAddress(models.Model):
     email = models.EmailField()
     phone = models.CharField(max_length=31)
     order_notes = models.TextField(max_length=1000, blank=True)
-    customer = models.OneToOneField('Customer', on_delete=models.CASCADE, null=True, blank=True)
+    customer = models.OneToOneField('Customer', on_delete=models.SET_NULL, null=True, blank=True)
     def __str__(self):
         return self.first_name + ' ' + self.last_name + ' - ' + self.street_address_1 + ' ' + self.street_address_2 + ' ' + self.city + ', ' + self.country + ', ' + self.zipcode
 
@@ -98,8 +101,8 @@ class OptionalShippingAddress(models.Model):
     zipcode = models.CharField(max_length=30, blank=True)
     email = models.EmailField()
     phone = models.CharField(max_length=31)
-    order_notes = models.TextField(max_length=1000, blank=True)
-    customer = models.OneToOneField('Customer', on_delete=models.CASCADE, null=True, blank=True)
+    order_notes = models.TextField(max_length=1000, blank=True, null=True)
+    customer = models.OneToOneField('Customer', on_delete=models.SET_NULL, null=True, blank=True)
 
 
     def __str__(self):

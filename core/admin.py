@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.contenttypes.admin import GenericTabularInline
-from store.admin import ProductAdmin, ProductImageInline
+from store.admin import ProductAdmin, ProductImageInline, ProductVariationInline
 from blog.admin import BlogAdmin, BlogPostImageInline
 from tags.models import TaggedItem
 from store.models import Product
@@ -28,7 +28,7 @@ class AilmentInline(GenericTabularInline):
 
 
 class CustomProductAdmin(ProductAdmin):
-    inlines = [ProductImageInline, TagInline, AilmentInline]
+    inlines = [ProductImageInline, ProductVariationInline, TagInline, AilmentInline]
 
 class CustomBlogAdmin(BlogAdmin):
     inlines = [BlogPostImageInline, TagInline, AilmentInline]

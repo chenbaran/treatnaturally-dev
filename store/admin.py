@@ -30,6 +30,10 @@ class ProductImageInline(admin.TabularInline):
             return format_html(f'<img src="{instance.image.url}" class="thumbnail">')
         return ''
 
+class ProductVariationInline(admin.TabularInline):
+    model = models.ProductVariation
+    
+
 @admin.register(models.Product)
 class ProductAdmin(admin.ModelAdmin):
     autocomplete_fields = ['category']
@@ -37,7 +41,7 @@ class ProductAdmin(admin.ModelAdmin):
         'slug': ['name']
     }
     actions = ['clear_stock']
-    inline = [ProductImageInline]
+    inlines = [ProductImageInline, ProductVariationInline]
     list_display = ['name', 'price',
                     'stock_status', 'category_title']
     list_editable = ['price']
@@ -152,7 +156,7 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ['customer']
     list_display = ['id', 'placed_at', 'customer', 'shipping_address', 'shipping_contact_details']
     fields = ['customer', 'billing_address', 'optional_shipping_address', 'shipping_contact_details']
-    readonly_fields = ['billing_address', 'optional_shipping_address', 'shipping_contact_details']
+    readonly_fields = ['shipping_contact_details']
 
 
     def shipping_address(self, instance):

@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
-from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest, BillingAddress, OptionalShippingAddress
+from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest, BillingAddress, OptionalShippingAddress, ProductVariation
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -21,12 +21,18 @@ class ProductImageSerializer(serializers.ModelSerializer):
         model = ProductImage
         fields = ['id', 'image']
 
+class ProductVariationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductVariation
+        fields = ['sku', 'quantity', 'price', 'stock', 'image']
+
 class ProductSerializer(serializers.ModelSerializer):
     images = ProductImageSerializer(many=True, read_only=True)
+    variations = ProductVariationSerializer(many=True, read_only=True)
     class Meta:
         model = Product
         fields = ['id', 'name', 'shortDescription', 'fullDescription', 'slug', 'stock',
-                  'price', 'price_with_tax', 'category', 'images','new','discount']
+                  'price', 'price_with_tax', 'variations', 'category', 'images','new','discount']
 
     price_with_tax = serializers.SerializerMethodField(
         method_name='calculate_tax')
@@ -145,7 +151,28 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ['id', 'user_id', 'phone', 'birth_date', 'membership', 'interests', 'billing_address', 'optional_shipping_address']
+        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'interests', 'billing_address', 'optional_shipping_address']
+
+    access = serializers.SerializerMethodField(method_name='get_access_true', read_only=True)
+    email = serializers.SerializerMethodField(method_name='get_email', read_only=True)
+    first_name = serializers.SerializerMethodField(method_name='get_first_name', read_only=True)
+    last_name = serializers.SerializerMethodField(method_name='get_last_name', read_only=True)
+    user = serializers.SerializerMethodField(method_name='get_username', read_only=True)
+
+    def get_access_true(self, customer:Customer):
+        return [True]
+    
+    def get_email(self, customer: Customer):
+        return [customer.user.email]
+    
+    def get_first_name(self, customer: Customer):
+        return [customer.user.first_name]
+    
+    def get_last_name(self, customer: Customer):
+        return [customer.user.last_name]
+    
+    def get_username(self, customer: Customer):
+        return [customer.user.username]
 
     
     def update(self, instance, validated_data):
