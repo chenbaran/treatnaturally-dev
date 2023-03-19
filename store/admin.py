@@ -151,21 +151,46 @@ class OrderItemInline(admin.TabularInline):
 
 @admin.register(models.Order)
 class OrderAdmin(admin.ModelAdmin):
+    exclude = ['billing_address', 'optional_shipping_address']
     autocomplete_fields = ['customer']
     inlines = [OrderItemInline]
     list_filter = ['customer']
-    list_display = ['id', 'placed_at', 'customer', 'shipping_address', 'shipping_contact_details']
-    fields = ['customer', 'billing_address', 'optional_shipping_address', 'shipping_contact_details']
-    readonly_fields = ['shipping_contact_details']
+    list_display = ['id', 'placed_at', 'customer', 'shipping_contact_details']
+    fields = ['customer', 'billing_address_details', 'optional_shipping_address_details']
+    readonly_fields = ['shipping_contact_details', 'billing_address_details', 'optional_shipping_address_details']
 
-
-    def shipping_address(self, instance):
+    def billing_address_details(self, instance):
+        first_name = instance.billing_address.first_name
+        last_name = instance.billing_address.last_name
         street_address_1 = instance.billing_address.street_address_1
         street_address_2 = instance.billing_address.street_address_2
         city = instance.billing_address.city
         country = instance.billing_address.country
-        return street_address_1 + ' ' + street_address_2 + ', ' + city + ', ' + country
-    
+        zipcode = instance.billing_address.zipcode
+        email = instance.billing_address.email
+        phone = instance.billing_address.phone
+        order_notes = instance.billing_address.order_notes
+    #   return first_name + ' ' + last_name + '\n' + phone + '\n' + email + '\n' + street_address_1 + ' ' + street_address_2 + ', ' + city + ', ' + country + ', ' + zipcode + '\n' + order_notes
+        return format_html('Name: {} {} <br>Contact details: <a href="mailto:{}">{}<a/> | <a href="tel:{}">{}</a> <br> Street Address 1: {}<br>Street Address 2: {}<br>City: {}<br>Country: {}<br>Zipcode: {}<br>Order notes:<br>{}', first_name, last_name, email, email, phone, phone, street_address_1, street_address_2, city, country, zipcode, order_notes)
+        
+
+    def optional_shipping_address_details(self, instance):
+        if instance.optional_shipping_address:
+            first_name = instance.optional_shipping_address.first_name
+            last_name = instance.optional_shipping_address.last_name
+            street_address_1 = instance.optional_shipping_address.street_address_1
+            street_address_2 = instance.optional_shipping_address.street_address_2
+            city = instance.optional_shipping_address.city
+            country = instance.optional_shipping_address.country
+            zipcode = instance.optional_shipping_address.zipcode
+            email = instance.optional_shipping_address.email
+            phone = instance.optional_shipping_address.phone
+            order_notes = instance.optional_shipping_address.order_notes
+        #   return first_name + ' ' + last_name + '\n' + phone + '\n' + email + '\n' + street_address_1 + ' ' + street_address_2 + ', ' + city + ', ' + country + ', ' + zipcode + '\n' + order_notes
+            return format_html('Name: {} {} <br>Contact details: <a href="mailto:{}">{}<a/> | <a href="tel:{}">{}</a> <br> Street Address 1: {}<br>Street Address 2: {}<br>City: {}<br>Country: {}<br>Zipcode: {}<br>Order notes:<br>{}', first_name, last_name, email, email, phone, phone, street_address_1, street_address_2, city, country, zipcode, order_notes)
+        else:
+            return 'No optional shipping address was provided.'
+
     def shipping_contact_details(self, instance):
         email = instance.billing_address.email
         phone = instance.billing_address.phone

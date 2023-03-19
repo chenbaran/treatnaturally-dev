@@ -189,6 +189,8 @@ class OrderViewSet(ModelViewSet):
     def get_permissions(self):
         if self.request.method in ['PATCH', 'PUT', 'DELETE']:
             return [IsAdminUser()]
+        elif self.request.method == 'POST':
+            return [AllowAny()]
         return [IsAuthenticated()]
 
     def create(self, request, *args, **kwargs):

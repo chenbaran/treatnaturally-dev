@@ -221,6 +221,8 @@ class UpdateOrderSerializer(serializers.ModelSerializer):
 class CreateOrderSerializer(serializers.Serializer):
     cart_id = serializers.UUIDField()
     billing_address_id = serializers.IntegerField()
+    optional_shipping_address_id = serializers.IntegerField(required=False)
+    final_price = serializers.IntegerField()
 
 
     def validate_cart_id(self, cart_id):
@@ -234,14 +236,31 @@ class CreateOrderSerializer(serializers.Serializer):
     def save(self, **kwargs):
         with transaction.atomic():
             cart_id = self.validated_data['cart_id']
-
-            customer = Customer.objects.get(
-                user_id=self.context['user_id'])
-            order = Order.objects.create(customer=customer)
-
+            
+            customer_id = self.context.get('user_id')
+            if customer_id:
+                customer = Customer.objects.get(user_id=customer_id)
+            else:
+                customer = None
+            
             billing_address_id = self.validated_data['billing_address_id']
             billing_address = BillingAddress.objects.get(pk=billing_address_id)
-            order.billing_address = billing_address
+
+            optional_shipping_address_id = self.validated_data.get('optional_shipping_address_id')
+            optional_shipping_address = None
+            if optional_shipping_address_id is not None:
+                optional_shipping_address = OptionalShippingAddress.objects.get(pk=optional_shipping_address_id)
+                order.optional_shipping_address = optional_shipping_address
+
+            cart_items = CartItem.objects \
+                .select_related('product') \
+                .filter(cart_id=cart_id)
+
+            order = Order.objects.create(
+                customer=customer,
+                billing_address=billing_address,
+                optional_shipping_address=optional_shipping_address
+            )
 
             cart_items = CartItem.objects \
                 .select_related('product') \

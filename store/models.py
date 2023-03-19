@@ -167,14 +167,16 @@ class Order(models.Model):
     placed_at = models.DateTimeField(auto_now_add=True)
     payment_status = models.CharField(
         max_length=1, choices=PAYMENT_STATUS_CHOICES, default=PAYMENT_STATUS_PENDING)
-    customer = models.ForeignKey(Customer, on_delete=models.PROTECT)
+    customer = models.ForeignKey(Customer, on_delete=models.PROTECT, null=True, blank=True)
     billing_address = models.ForeignKey(BillingAddress, on_delete=models.PROTECT)
     optional_shipping_address = models.ForeignKey(OptionalShippingAddress, blank=True, null=True, on_delete=models.CASCADE)
-
+    final_price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
     class Meta:
         permissions = [
             ('cancel_order', 'Can cancel order')
         ]
+    def __str__(self):
+        return self.billing_address.first_name + ' ' + self.billing_address.last_name + "'s order"
 
 
 class OrderItem(models.Model):

@@ -22379,3 +22379,1510 @@ AssertionError: The field 'variations' was declared on serializer ProductSeriali
 2023-03-17 12:50:46,809 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
 2023-03-17 12:50:47,970 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-17 12:50:54,215 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-17 13:01:20,646 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:09:58,195 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-19 11:13:49,747 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:14:20,052 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:18:23,035 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-19 11:18:24,638 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:18:29,567 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-19 11:18:31,083 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:18:32,773 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-19 11:18:34,078 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:18:39,019 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-19 11:18:40,285 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:18:46,155 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-19 11:18:48,071 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:26:17,309 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:26:18,701 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:26:34,020 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:26:35,378 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:26:48,473 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:26:49,753 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:26:55,150 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:26:56,596 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:26:59,650 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:27:00,919 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:27:11,242 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:27:12,518 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:27:15,521 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:27:16,887 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:27:18,463 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:27:19,836 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:27:58,112 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:27:59,496 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:28:02,552 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:28:03,862 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:28:08,213 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:28:09,458 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:28:19,886 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:28:21,252 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:28:49,627 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:28:50,933 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:28:56,529 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:28:57,755 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:29:02,320 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:29:03,697 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:29:07,988 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:29:09,370 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:29:40,788 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:29:56,458 (WARNING) - django.request - Bad Request: /store/orders/
+2023-03-19 11:30:04,153 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-19 11:30:38,503 (WARNING) - django.request - Not Found: /store/carts/items/
+2023-03-19 11:31:37,319 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:31:45,429 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 240, in save
+    customer = Customer.objects.get(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.Customer.DoesNotExist: Customer matching query does not exist.
+2023-03-19 11:33:43,734 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:33:45,033 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:33:50,359 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:33:51,599 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:33:53,613 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:33:54,921 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:33:57,640 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:33:58,853 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:34:03,719 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:34:05,084 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:34:12,151 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:34:13,376 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:34:17,743 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:34:19,106 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:34:37,132 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:34:38,397 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:34:45,438 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 240, in save
+    customer = Customer.objects.get(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.Customer.DoesNotExist: Customer matching query does not exist.
+2023-03-19 11:36:08,252 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:09,668 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:11,831 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:13,058 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:16,296 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:17,667 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:22,564 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:23,803 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:33,088 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:34,378 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:37,054 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:38,415 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:41,435 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:42,788 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:36:46,934 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:36:48,194 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:03,561 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:04,950 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:09,225 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:10,444 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:16,144 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 239, in save
+    if Customer.objects.get(user_id=self.context['user_id']):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.Customer.DoesNotExist: Customer matching query does not exist.
+2023-03-19 11:37:26,105 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:27,423 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:31,754 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:33,214 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:36,463 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:37,829 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:39,440 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:40,751 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:37:47,684 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 239, in save
+    if Customer.objects.get(user_id=self.context['user_id']) != False:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.Customer.DoesNotExist: Customer matching query does not exist.
+2023-03-19 11:37:57,684 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:37:58,960 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:38:10,434 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:38:11,733 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:38:17,735 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:38:19,052 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:45:39,955 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:45:41,556 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:45:43,188 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:45:44,490 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:46:28,033 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'customer_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'customer_id' cannot be null")
+2023-03-19 11:46:48,887 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:46:50,325 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:46:53,833 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:46:55,026 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:46:57,510 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:46:58,721 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:47:02,199 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 11:47:03,564 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:47:13,127 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:47:53,942 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-19 11:49:08,265 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:49:25,780 (WARNING) - django.request - Bad Request: /store/orders/
+2023-03-19 11:49:59,658 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:50:01,128 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:51:40,074 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:51:45,849 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:53:07,660 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:53:12,154 (WARNING) - django.request - Bad Request: /store/orders/
+2023-03-19 11:53:43,162 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-19 11:54:15,835 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:54:23,127 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'customer_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'customer_id' cannot be null")
+2023-03-19 11:54:47,694 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 11:56:34,819 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:56:36,352 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:56:37,972 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:56:39,621 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:57:10,454 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 11:57:54,048 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 11:58:48,788 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:58:50,262 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:58:59,143 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:59:00,548 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:59:03,877 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:59:05,404 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:59:09,827 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 11:59:11,236 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 11:59:23,733 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 238, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 12:01:35,981 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:01:37,510 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:02:29,778 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:02:31,205 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:02:36,730 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:02:38,285 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:02:45,052 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:02:46,494 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:02:48,606 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:02:49,915 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:02:55,916 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 12:03:21,806 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:03:23,545 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:03:26,832 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:03:28,213 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:03:40,824 (WARNING) - django.request - Unauthorized: /store/billingaddresses/me/
+2023-03-19 12:03:40,971 (WARNING) - django.request - Unauthorized: /store/billingaddresses/me/
+2023-03-19 12:04:18,602 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:04:20,084 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:04:26,338 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:04:27,891 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:04:35,309 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-19 12:04:55,917 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 12:06:04,969 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:06:06,386 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:06:12,263 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1048, "Column 'billing_address_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 246, in save
+    order = Order.objects.create(customer=customer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 80, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'billing_address_id' cannot be null")
+2023-03-19 12:07:52,368 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:07:53,929 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:08:02,334 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:08:03,910 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:08:12,886 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 201, in create
+    order = serializer.save()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 260, in save
+    optional_shipping_address=optional_shipping_address
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'optional_shipping_address' where it is not associated with a value
+2023-03-19 12:09:07,495 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:09:09,041 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:09:11,269 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-19 12:09:12,832 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:13:29,934 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:13:31,385 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:13:38,080 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:13:39,496 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:13:41,639 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:13:42,914 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:14:09,272 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:14:10,686 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:14:24,680 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:14:25,960 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:15,564 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:16,914 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:26,692 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:28,085 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:31,704 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:33,025 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:35,105 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:36,317 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:40,941 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:42,253 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:49,937 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:51,449 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:15:58,320 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:15:59,707 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:16:22,917 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:16:24,243 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:16:56,535 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:16:58,026 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:09,324 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:10,798 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:12,400 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:13,851 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:15,410 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:16,834 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:30,218 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:31,844 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:36,338 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:37,755 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:42,044 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:43,509 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:17:45,520 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:17:46,756 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:23,165 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:24,566 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:27,147 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:28,485 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:30,023 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:31,336 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:37,019 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:38,460 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:50,511 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:51,914 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:18:54,053 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:18:55,384 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:08,516 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:09,934 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:20,819 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:22,164 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:23,707 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:24,968 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:34,733 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:36,226 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:38,266 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:39,545 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:41,071 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:42,372 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:44,488 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:45,739 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:50,391 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:51,725 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:54,301 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:55,587 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:19:57,665 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:19:58,898 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:02,469 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:03,762 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:09,153 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:10,490 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:14,292 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:15,926 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:19,697 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:21,283 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:27,811 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:29,396 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:20:57,049 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:20:58,443 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:04,130 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:05,428 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:10,761 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:12,022 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:14,587 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:15,922 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:17,953 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:19,272 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:27,941 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:29,235 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:31,311 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:32,580 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:38,016 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:39,450 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:41,525 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:42,814 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:21:52,678 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:21:54,009 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:07,050 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:08,406 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:13,734 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:15,127 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:17,216 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:18,561 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:27,249 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:28,735 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:30,845 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:32,207 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:34,253 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:35,605 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:37,638 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:38,982 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:49,862 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:51,323 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:22:55,575 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:22:56,974 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:00,120 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:01,507 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:05,842 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:07,206 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:09,299 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:10,695 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:12,808 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:14,149 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:16,181 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:17,517 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:19,612 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:21,019 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:25,298 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:26,592 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:34,145 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:35,532 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:37,597 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:38,950 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:52,095 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:53,529 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:23:55,582 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:23:56,911 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:24:13,404 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:24:14,744 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:24:17,878 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:24:19,316 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:24:25,797 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:24:27,220 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:24:40,361 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:24:41,767 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:25:17,038 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:25:18,405 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:25:24,843 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:25:26,168 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:25:28,240 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:25:29,527 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:25:35,956 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:25:37,205 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:26:10,185 (ERROR) - django.request - Internal Server Error: /admin/store/order/1/change/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\forms\forms.py", line 182, in __getitem__
+    field = self.fields[name]
+            ~~~~~~~~~~~^^^^^^
+KeyError: 'billing_address'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\test\utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\helpers.py", line 156, in __iter__
+    yield AdminField(self.form, field, is_first=(i == 0))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\helpers.py", line 170, in __init__
+    self.field = form[field]  # A django.forms.BoundField instance
+                 ~~~~^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\forms\forms.py", line 184, in __getitem__
+    raise KeyError(
+KeyError: "Key 'billing_address' not found in 'OrderForm'. Choices are: customer."
+2023-03-19 12:26:26,516 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:26:28,001 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:26:32,393 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:26:33,870 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:26:39,271 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:26:40,726 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:26:59,419 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:27:00,795 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:27:04,030 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:27:05,306 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:27:11,226 (ERROR) - django.request - Internal Server Error: /admin/store/order/1/change/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 807, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\forms\models.py", line 648, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\forms\models.py", line 327, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (billing_address_details) specified for Order
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 1786, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (billing_address_details) specified for Order. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+2023-03-19 12:27:44,690 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:27:46,129 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:27:49,440 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:27:50,772 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:28:01,811 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:28:03,176 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:28:05,748 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:28:07,013 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:28:43,802 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:28:45,167 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:28:50,666 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:28:51,998 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:29:40,089 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:29:41,450 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:02,525 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:03,918 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:13,841 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:15,254 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:17,809 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:19,144 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:26,913 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:28,339 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:30,487 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:31,852 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:34,422 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:35,731 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:46,588 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:47,887 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:30:57,794 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:30:59,080 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:31:06,842 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:31:08,151 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:31:23,610 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:31:24,945 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:31:29,353 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:31:30,727 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:02,976 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:04,300 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:07,964 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:09,325 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:11,438 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:12,827 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:14,384 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:15,764 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:18,347 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:19,665 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:27,519 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:28,952 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:32,528 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:33,855 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:43,723 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:45,103 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:32:47,667 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:32:49,054 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:33:07,816 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:33:09,188 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:33:14,774 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:33:16,068 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:33:55,362 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:33:56,751 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:34:02,253 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:34:03,765 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:34:37,547 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:34:38,923 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:34:48,783 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:34:50,080 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:36:23,870 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-19 12:36:25,292 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:45:27,710 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:45:29,129 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:45:51,204 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:45:52,559 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:45:55,799 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:45:57,160 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:45:59,382 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:00,724 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:09,650 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:11,153 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:14,569 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:15,875 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:17,999 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:19,270 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:21,722 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:22,963 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:24,403 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 12:46:25,696 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
