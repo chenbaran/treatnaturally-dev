@@ -23886,3 +23886,19 @@ django.core.exceptions.FieldError: Unknown field(s) (billing_address_details) sp
 2023-03-19 12:46:22,963 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-19 12:46:24,403 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
 2023-03-19 12:46:25,696 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 12:46:41,086 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-19 13:10:00,770 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:10:01,939 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:11:12,242 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:11:13,471 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:11:16,966 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:11:18,155 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:11:58,623 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:11:59,779 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:12:51,795 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:14:48,608 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:14:49,741 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:14:55,267 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:14:56,515 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:17:42,060 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-19 13:17:43,356 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
