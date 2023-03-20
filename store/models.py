@@ -185,6 +185,7 @@ class OrderItem(models.Model):
         Product, on_delete=models.CASCADE, related_name='orderitems')
     quantity = models.PositiveSmallIntegerField()
     unit_price = models.DecimalField(max_digits=6, decimal_places=2)
+    final_price_after_discount = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
 
 
 
@@ -200,6 +201,7 @@ class CartItem(models.Model):
     quantity = models.PositiveSmallIntegerField(
         validators=[MinValueValidator(1)]
     )
+    final_price_after_discount = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
 
     class Meta:
         unique_together = [['cart', 'product']]

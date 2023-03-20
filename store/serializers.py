@@ -66,12 +66,13 @@ class CartItemSerializer(serializers.ModelSerializer):
     product = SimpleProductSerializer()
     total_price = serializers.SerializerMethodField()
 
+
     def get_total_price(self, cart_item: CartItem):
         return cart_item.quantity * cart_item.product.price
 
     class Meta:
         model = CartItem
-        fields = ['id', 'product', 'quantity', 'total_price']
+        fields = ['id', 'product', 'quantity', 'total_price', 'final_price_after_discount']
 
 
 class CartSerializer(serializers.ModelSerializer):
@@ -89,7 +90,7 @@ class CartSerializer(serializers.ModelSerializer):
 
 class AddCartItemSerializer(serializers.ModelSerializer):
     product_id = serializers.IntegerField()
-
+    final_price_after_discount = serializers.DecimalField(required=False, allow_null=True, max_digits=6, decimal_places=2)
     def validate_product_id(self, value):
         if not Product.objects.filter(pk=value).exists():
             raise serializers.ValidationError(
@@ -100,11 +101,12 @@ class AddCartItemSerializer(serializers.ModelSerializer):
         cart_id = self.context['cart_id']
         product_id = self.validated_data['product_id']
         quantity = self.validated_data['quantity']
-
+        final_price_after_discount = self.validated_data['final_price_after_discount']
         try:
             cart_item = CartItem.objects.get(
                 cart_id=cart_id, product_id=product_id)
             cart_item.quantity += quantity
+            cart_item.final_price_after_discount = final_price_after_discount
             cart_item.save()
             self.instance = cart_item
         except CartItem.DoesNotExist:
@@ -115,7 +117,7 @@ class AddCartItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CartItem
-        fields = ['id', 'product_id', 'quantity']
+        fields = ['id', 'product_id', 'quantity', 'final_price_after_discount']
 
 
 class UpdateCartItemSerializer(serializers.ModelSerializer):
@@ -201,7 +203,7 @@ class OrderItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = OrderItem
-        fields = ['id', 'product', 'unit_price', 'quantity']
+        fields = ['id', 'product', 'unit_price', 'final_price_after_discount', 'quantity']
 
 
 class OrderSerializer(serializers.ModelSerializer):
@@ -209,7 +211,7 @@ class OrderSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Order
-        fields = ['id', 'customer', 'billing_address', 'placed_at', 'payment_status', 'items']
+        fields = ['id', 'customer', 'final_price', 'billing_address', 'placed_at', 'payment_status', 'items']
 
 
 class UpdateOrderSerializer(serializers.ModelSerializer):
@@ -221,8 +223,8 @@ class UpdateOrderSerializer(serializers.ModelSerializer):
 class CreateOrderSerializer(serializers.Serializer):
     cart_id = serializers.UUIDField()
     billing_address_id = serializers.IntegerField()
-    optional_shipping_address_id = serializers.IntegerField(required=False)
-    final_price = serializers.IntegerField()
+    optional_shipping_address_id = serializers.IntegerField(required=False, allow_null=True)
+    final_price = serializers.DecimalField(max_digits=6, decimal_places=2)
 
 
     def validate_cart_id(self, cart_id):
@@ -251,15 +253,17 @@ class CreateOrderSerializer(serializers.Serializer):
             if optional_shipping_address_id is not None:
                 optional_shipping_address = OptionalShippingAddress.objects.get(pk=optional_shipping_address_id)
                 order.optional_shipping_address = optional_shipping_address
-
             cart_items = CartItem.objects \
                 .select_related('product') \
                 .filter(cart_id=cart_id)
 
+            final_price = self.validated_data['final_price']
+
             order = Order.objects.create(
                 customer=customer,
                 billing_address=billing_address,
-                optional_shipping_address=optional_shipping_address
+                optional_shipping_address=optional_shipping_address,
+                final_price = final_price
             )
 
             cart_items = CartItem.objects \
@@ -270,6 +274,7 @@ class CreateOrderSerializer(serializers.Serializer):
                     order=order,
                     product=item.product,
                     unit_price=item.product.price,
+                    final_price_after_discount=item.final_price_after_discount,
                     quantity=item.quantity
                 ) for item in cart_items
             ]

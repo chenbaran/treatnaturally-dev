@@ -23902,3 +23902,216 @@ django.core.exceptions.FieldError: Unknown field(s) (billing_address_details) sp
 2023-03-19 13:14:56,515 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-19 13:17:42,060 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
 2023-03-19 13:17:43,356 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-19 13:59:12,060 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 11:55:55,872 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 11:57:36,910 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-20 11:57:37,725 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-20 12:08:00,631 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 12:08:03,591 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 12:08:05,689 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 12:08:08,024 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:10:42,042 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:10:54,787 (WARNING) - django.request - Not Found: /store/cart
+2023-03-20 13:10:58,622 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-20 13:12:50,392 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-20 13:13:07,481 (ERROR) - django.request - Internal Server Error: /store/orders/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 203, in create
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+           ^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `price_after_discountquantity` is not valid for model `OrderItem`.
+2023-03-20 13:13:20,570 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:13:21,846 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:13:23,919 (WARNING) - django.request - Bad Request: /store/orders/
+2023-03-20 13:14:11,377 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-20 13:15:03,028 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-20 13:15:05,022 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-20 13:15:55,928 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-20 13:15:56,108 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-20 13:18:32,510 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:18:33,935 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:18:51,749 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:18:53,083 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:13,312 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:14,733 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:16,896 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:18,313 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:25,028 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:26,413 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:28,579 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:29,947 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:36,724 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:38,154 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:19:41,494 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:19:42,828 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:37,119 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:20:38,474 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:40,042 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:20:41,507 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:47,045 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:20:48,424 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:52,796 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:20:54,156 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:56,372 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:20:57,827 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:20:59,318 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:00,588 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:03,161 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:04,513 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:08,957 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:10,334 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:12,470 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:13,763 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:15,890 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:17,279 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:22,780 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:24,168 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:29,621 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:31,037 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:35,356 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:36,710 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:44,514 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:45,984 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:21:50,504 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:21:51,873 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:22:27,315 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:22:28,716 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:22:35,366 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:22:36,732 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:22:44,453 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:22:45,850 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:22:49,078 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:22:50,439 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:22:52,641 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:22:53,944 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:23:07,216 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:23:08,575 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:23:12,958 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:23:14,412 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:23:20,981 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:23:22,468 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:24:05,364 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:24:06,791 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:24:17,397 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:25:31,073 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:25:32,438 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:25:44,595 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:25:46,029 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:25:50,356 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:25:51,734 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:06,790 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:27:08,179 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:11,510 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:27:12,882 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:20,516 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:27:21,808 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:23,350 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\admin.py changed, reloading.
+2023-03-20 13:27:24,601 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:39,051 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:27:48,637 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-20 13:28:30,206 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-20 13:29:28,038 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:29:29,404 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:29:32,672 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:29:34,123 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:29:41,955 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:29:43,297 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:30:07,752 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:30:09,112 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:31:11,137 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:31:12,563 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:31:20,902 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:31:22,239 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:31:42,678 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:31:44,155 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:31:46,955 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:31:48,315 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:32:02,073 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:32:03,551 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:32:06,348 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:32:07,660 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:32:13,686 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:32:15,080 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 13:32:46,705 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 13:32:48,095 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:17:45,824 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-20 14:20:34,879 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-20 14:20:36,887 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:20:39,494 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\models.py changed, reloading.
+2023-03-20 14:20:41,615 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:21:19,170 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:21:21,063 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:21:43,081 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:21:44,864 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:21:50,746 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:21:52,402 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:21:56,032 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:21:57,715 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:21:59,977 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:01,762 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:22:04,290 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:05,904 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:22:10,538 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:12,160 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:22:14,571 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:16,275 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:22:18,567 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:20,171 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-20 14:22:27,094 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-20 14:22:28,750 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

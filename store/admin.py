@@ -155,9 +155,15 @@ class OrderAdmin(admin.ModelAdmin):
     autocomplete_fields = ['customer']
     inlines = [OrderItemInline]
     list_filter = ['customer']
-    list_display = ['id', 'placed_at', 'customer', 'shipping_contact_details']
-    fields = ['customer', 'billing_address_details', 'optional_shipping_address_details']
+    list_display = ['id', 'order_name', 'final_price', 'payment_status', 'placed_at', 'customer', 'shipping_contact_details']
+    fields = ['customer', 'final_price', 'payment_status', 'billing_address_details', 'optional_shipping_address_details']
     readonly_fields = ['shipping_contact_details', 'billing_address_details', 'optional_shipping_address_details']
+
+    def order_name(self,instance):
+        first_name = instance.billing_address.first_name
+        last_name = instance.billing_address.last_name
+        order_id = instance.id
+        return format_html('<a href="/admin/store/order/{}">{} {}</a>', order_id, first_name, last_name)
 
     def billing_address_details(self, instance):
         first_name = instance.billing_address.first_name
