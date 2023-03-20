@@ -183,6 +183,7 @@ class OrderItem(models.Model):
     order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='items')
     product = models.ForeignKey(
         Product, on_delete=models.CASCADE, related_name='orderitems')
+    variation = models.CharField(max_length=255, null=True, blank=True)
     quantity = models.PositiveSmallIntegerField()
     unit_price = models.DecimalField(max_digits=6, decimal_places=2)
     final_price_after_discount = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
@@ -198,6 +199,7 @@ class CartItem(models.Model):
     cart = models.ForeignKey(
         Cart, on_delete=models.CASCADE, related_name='items')
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    variation = models.CharField(max_length=255, null=True, blank=True)
     quantity = models.PositiveSmallIntegerField(
         validators=[MinValueValidator(1)]
     )

@@ -91,6 +91,8 @@ class CartSerializer(serializers.ModelSerializer):
 class AddCartItemSerializer(serializers.ModelSerializer):
     product_id = serializers.IntegerField()
     final_price_after_discount = serializers.DecimalField(required=False, allow_null=True, max_digits=6, decimal_places=2)
+    variation = serializers.CharField(required=False, allow_null=True, max_length=255)
+
     def validate_product_id(self, value):
         if not Product.objects.filter(pk=value).exists():
             raise serializers.ValidationError(
@@ -100,11 +102,14 @@ class AddCartItemSerializer(serializers.ModelSerializer):
     def save(self, **kwargs):
         cart_id = self.context['cart_id']
         product_id = self.validated_data['product_id']
+        variation = self.validated_data['variation']
         quantity = self.validated_data['quantity']
         final_price_after_discount = self.validated_data['final_price_after_discount']
+
         try:
             cart_item = CartItem.objects.get(
                 cart_id=cart_id, product_id=product_id)
+            cart_item.variation = variation
             cart_item.quantity += quantity
             cart_item.final_price_after_discount = final_price_after_discount
             cart_item.save()
@@ -117,7 +122,7 @@ class AddCartItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = CartItem
-        fields = ['id', 'product_id', 'quantity', 'final_price_after_discount']
+        fields = ['id', 'product_id', 'variation', 'quantity', 'final_price_after_discount']
 
 
 class UpdateCartItemSerializer(serializers.ModelSerializer):
@@ -203,7 +208,7 @@ class OrderItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = OrderItem
-        fields = ['id', 'product', 'unit_price', 'final_price_after_discount', 'quantity']
+        fields = ['id', 'product', 'variation', 'unit_price', 'final_price_after_discount', 'quantity']
 
 
 class OrderSerializer(serializers.ModelSerializer):
@@ -273,6 +278,7 @@ class CreateOrderSerializer(serializers.Serializer):
                 OrderItem(
                     order=order,
                     product=item.product,
+                    variation=item.variation,
                     unit_price=item.product.price,
                     final_price_after_discount=item.final_price_after_discount,
                     quantity=item.quantity
