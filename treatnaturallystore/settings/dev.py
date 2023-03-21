@@ -36,11 +36,11 @@ CACHES = {
     }
 }
 
-
-EMAIL_HOST = 'smtp4dev'
+EMAIL_HOST = 'localhost'
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 2525
+DEFAULT_FROM_EMAIL = 'noreply@treatnaturally.co.uk'
 
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda request: True

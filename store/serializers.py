@@ -257,7 +257,6 @@ class CreateOrderSerializer(serializers.Serializer):
             optional_shipping_address = None
             if optional_shipping_address_id is not None:
                 optional_shipping_address = OptionalShippingAddress.objects.get(pk=optional_shipping_address_id)
-                order.optional_shipping_address = optional_shipping_address
             cart_items = CartItem.objects \
                 .select_related('product') \
                 .filter(cart_id=cart_id)

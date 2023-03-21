@@ -1,7 +1,4 @@
 from django.shortcuts import render
-
-from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, IsAdminUserOrPostRequest, ViewCustomerHistoryPermission
-from store.pagination import DefaultPagination
 from django.db.models.aggregates import Count
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
@@ -12,6 +9,8 @@ from rest_framework.permissions import AllowAny, DjangoModelPermissions, DjangoM
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
+from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, IsAdminUserOrPostRequest, ViewCustomerHistoryPermission
+from store.pagination import DefaultPagination
 from .filters import ProductFilter
 from .models import BillingAddress, Cart, CartItem, Category, Customer, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
 from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CreateOrderSerializer, CustomerSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
@@ -94,14 +93,10 @@ class CustomerViewSet(ModelViewSet):
     @action(detail=True, permission_classes=[ViewCustomerHistoryPermission])
     def history(self, request, pk):
         return Response('ok')
-
     @action(detail=False, methods=['GET', 'PUT', 'PATCH'], permission_classes=[IsAuthenticated])
     def me(self, request):
-        customer = Customer.objects.get(
-            user_id=request.user.id)
         if request.method == 'GET':
             serializer = CustomerSerializer(customer)
-            print(serializer.data)
             return Response(serializer.data)
         elif request.method == 'PUT':
             serializer = CustomerSerializer(customer, data=request.data)
@@ -137,7 +132,6 @@ class BillingAddressViewSet(ModelViewSet):
             serializer = BillingAddressSerializer(billing_address)
             return Response(serializer.data)
         elif request.method in ['PUT', 'PATCH']:
-            print(serializer.data)
             serializer = BillingAddressSerializer(billing_address, data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save(customer=customer)

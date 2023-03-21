@@ -1,7 +1,8 @@
 from django.conf import settings
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
-from store.models import BillingAddress, Customer, OptionalShippingAddress
+from store.models import BillingAddress, Customer, OptionalShippingAddress, Order
+from store.emails import send_order_confirmation_email
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
 def create_customer_for_new_user(sender, **kwargs):
@@ -19,8 +20,9 @@ def update_customer_billing_address(sender, instance, created, **kwargs):
 
 @receiver(post_delete, sender=BillingAddress)
 def delete_customer_billing_address(sender, instance, **kwargs):
-    instance.customer.billing_address_id = None
-    instance.customer.save()
+    if instance.customer:
+        instance.customer.billing_address_id = None
+        instance.customer.save()
 
 
 
@@ -34,5 +36,14 @@ def update_customer_optional_shipping_address(sender, instance, created, **kwarg
 
 @receiver(post_delete, sender=OptionalShippingAddress)
 def delete_customer_optional_shipping_address(sender, instance, **kwargs):
-    instance.customer.optional_shipping_address_id = None
-    instance.customer.save()
+    if instance.customer:
+        instance.customer.optional_shipping_address_id = None
+        instance.customer.save()\
+    
+
+
+# send order confirmation email
+@receiver(post_save, sender=Order)
+def send_order_confirmation(sender, instance, created, **kwargs):
+    if created:
+        send_order_confirmation_email(instance)
