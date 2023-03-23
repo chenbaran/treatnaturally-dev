@@ -9,7 +9,7 @@ def send_order_confirmation_email(order):
     message += f'Your order #{order.id} has been received.\n\n'
     message += f'Order Items:\n\n'
     for item in order.items.all():
-        message += f'{item.product.name}'
+        message += f'{item.orderitems.name} - Quantity: {item.orderitems.quantity}\n'
     message += f'Total: ${order.final_price}\n'
     if order.optional_shipping_address:    
         message += f'Shipping Address: {order.optional_shipping_address}\n'

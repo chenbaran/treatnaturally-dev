@@ -25338,3 +25338,2174 @@ TypeError: object of type 'RelatedManager' has no len()
 2023-03-21 16:23:19,912 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-21 16:23:27,412 (WARNING) - django.request - Method Not Allowed: /store/carts/
 2023-03-21 16:24:11,851 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:32:53,217 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:32:57,881 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 11:33:26,354 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:36:21,272 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:36:23,083 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:36:31,819 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:36:33,163 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:36:49,250 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 11:37:18,901 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:43:36,930 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:43:38,268 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:44:17,308 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:44:19,661 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 11:44:36,138 (WARNING) - django.request - Bad Request: /store/carts/f29a4ed1-b82c-4cf0-8b02-2b3daab0f245/items/
+2023-03-22 11:44:45,120 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:46:46,402 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:46:56,018 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 11:47:09,130 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-03-22 11:47:26,874 (WARNING) - django.request - Unauthorized: /auth/users/
+2023-03-22 11:47:27,084 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:27,225 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:42,398 (WARNING) - django.request - Bad Request: /auth/users/
+2023-03-22 11:47:42,583 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:42,740 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:46,599 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:46,765 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:47:53,015 (WARNING) - django.request - Method Not Allowed: /createtokens/
+2023-03-22 11:47:53,172 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:48:07,632 (WARNING) - django.request - Unauthorized: /createtokens/
+2023-03-22 11:48:07,797 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:48:07,974 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:48:13,604 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:48:13,756 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 11:49:00,373 (WARNING) - django.request - Not Found: /store/carts/f/
+2023-03-22 11:49:03,866 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 11:55:42,245 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:55:43,568 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:55:47,831 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:55:48,991 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 11:55:54,328 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-22 11:55:55,521 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:03:11,765 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:03:15,822 (WARNING) - django.request - Not Found: /store/carts/2af63b93-c8f0-46ec-b304-ed8e70dc3900/
+2023-03-22 12:03:16,412 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:03:34,736 (ERROR) - django.request - Internal Server Error: /store/carts/2af63b93-c8f0-46ec-b304-ed8e70dc3900/items/
+Traceback (most recent call last):
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 110, in save
+    cart_item = CartItem.objects.get(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+store.models.CartItem.DoesNotExist: CartItem matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`treatnaturallystore`.`store_cartitem`, CONSTRAINT `store_cartitem_cart_id_4f60ac05_fk_store_cart_id` FOREIGN KEY (`cart_id`) REFERENCES `store_cart` (`id`))')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 118, in save
+    self.instance = CartItem.objects.create(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 671, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 863, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1006, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\base.py", line 1047, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\query.py", line 1791, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\models\sql\compiler.py", line 1660, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 230, in execute
+    return self._record(self.cursor.execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 154, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`treatnaturallystore`.`store_cartitem`, CONSTRAINT `store_cartitem_cart_id_4f60ac05_fk_store_cart_id` FOREIGN KEY (`cart_id`) REFERENCES `store_cart` (`id`))')
+2023-03-22 12:04:00,660 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 12:04:35,360 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-22 12:07:49,177 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:07:50,784 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:07:54,219 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:07:55,711 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:08:01,003 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:08:02,445 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:16,827 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:18,302 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:20,484 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:21,944 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:24,322 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:25,699 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:27,866 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:29,256 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:31,443 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:32,791 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:39,199 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:40,589 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:09:43,711 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:09:45,171 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:10:03,905 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:10:16,837 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:10:42,401 (WARNING) - django.request - Not Found: /store/customer/me/
+2023-03-22 12:10:47,460 (WARNING) - django.request - Forbidden: /store/customers/
+2023-03-22 12:10:52,124 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:11:21,297 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:11:22,761 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:11:25,173 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:11:26,809 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:11:31,135 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:11:32,406 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:11:33,165 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:12:11,734 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:12:13,264 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:12:16,490 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:12:18,279 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:12:21,045 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:12:22,407 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:12:28,337 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:12:43,553 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:12:45,050 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:12:54,467 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:12:56,072 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:12:57,347 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:12:58,281 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:24,098 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:24,578 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:13:26,879 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:27,653 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:28,270 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:28,928 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:29,661 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:30,432 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:31,086 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:31,886 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:13:32,619 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:14:33,406 (WARNING) - django.request - Bad Request: /auth/users/
+2023-03-22 12:14:33,602 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:14:33,779 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:14:42,277 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:14:42,455 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:14:50,119 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:14:59,175 (WARNING) - django.request - Method Not Allowed: /createtokens/
+2023-03-22 12:14:59,361 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:15:06,799 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:15:06,977 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-22 12:15:22,366 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:15:23,423 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 99, in me
+    serializer = CustomerSerializer(customer)
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'customer' where it is not associated with a value
+2023-03-22 12:16:16,385 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-22 12:16:17,893 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:16:25,725 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py changed, reloading.
+2023-03-22 12:16:27,099 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:16:44,504 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:16:46,208 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:16:58,562 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:16:59,951 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:17:01,949 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:17:03,253 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:17:44,472 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:17:46,052 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:17:56,059 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:17:57,518 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:18:00,812 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:18:02,472 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:18:04,079 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `ordersbilling_address` is not valid for model `Customer`.
+2023-03-22 12:18:10,350 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:18:11,932 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:18:12,908 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `orders` is not valid for model `Customer`.
+2023-03-22 12:18:32,393 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:18:34,289 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:18:36,496 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:18:37,871 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:19:19,153 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-22 12:20:17,990 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:20:19,437 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:17,394 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:18,764 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:24,484 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:25,853 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:31,199 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:32,661 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:37,693 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:39,014 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:47,852 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:49,520 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:21:57,353 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:21:58,699 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:23:30,995 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:23:35,406 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 1838, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 264, in get_orders
+    return customer.order.all()
+           ^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+2023-03-22 12:23:47,182 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:23:48,735 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:23:51,147 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 1838, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 264, in get_orders
+    return customer.orders.all()
+           ^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+2023-03-22 12:24:40,886 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:24:42,571 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:24:44,876 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:24:46,169 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:24:50,604 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:24:51,947 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:25:52,941 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:25:54,281 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:25:56,484 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:25:57,841 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:01,653 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:03,069 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:06,971 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:08,507 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:10,731 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:12,346 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:15,934 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:17,283 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:26,134 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:27,546 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:31,236 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:33,413 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:34,650 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 566, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Order is not JSON serializable
+2023-03-22 12:26:35,824 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 566, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Order is not JSON serializable
+2023-03-22 12:26:44,972 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:46,732 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:26:48,640 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 1838, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 265, in get_orders
+    return orders.all()
+           ^^^^^^^^^^
+AttributeError: 'Order' object has no attribute 'all'
+2023-03-22 12:26:54,147 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:26:55,511 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:01,039 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:27:02,491 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:12,134 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:15,413 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 566, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type OrderSerializer is not JSON serializable
+2023-03-22 12:27:17,541 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 566, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type OrderSerializer is not JSON serializable
+2023-03-22 12:27:36,304 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:27:37,886 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:41,242 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:27:42,677 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:44,391 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:27:45,692 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:27:52,461 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 655, in get_context
+    raw_data_put_form = self.get_raw_data_form(data, view, 'PUT', request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 566, in get_raw_data_form
+    content = renderer.render(data, accepted, context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type OrderSerializer is not JSON serializable
+2023-03-22 12:28:07,917 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:09,429 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:12,853 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:14,263 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:18,629 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:20,025 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:22,436 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:23,956 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:28,206 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:29,682 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:35,299 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:28:36,648 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:28:48,716 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-22 12:29:02,784 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:29:04,181 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:29:06,327 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:29:07,897 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:29:09,767 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:10,626 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:10,795 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:10,948 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:11,132 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:11,490 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:29:11,782 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-22 12:33:32,963 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:33:34,717 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:33:37,491 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-22 12:33:39,145 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:34:10,325 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-22 12:34:12,597 (WARNING) - django.request - Unauthorized: /store/customers/me/
+2023-03-22 12:34:17,173 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'order'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 280, in to_representation
+    data = super().to_representation(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `order` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'order'.
+2023-03-23 10:32:57,463 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:32:59,110 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:33:06,939 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:33:08,073 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:33:16,731 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:33:17,890 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:33:39,998 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 280, in to_representation
+    data = super().to_representation(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:33:40,728 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-23 10:33:41,533 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 280, in to_representation
+    data = super().to_representation(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:33:42,270 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 280, in to_representation
+    data = super().to_representation(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:33:42,573 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py", line 280, in to_representation
+    data = super().to_representation(instance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:35:23,784 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:25,247 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:35:28,008 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:29,208 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:35:32,943 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:34,029 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:35:45,407 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:46,865 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:35:49,541 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:50,672 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:35:53,852 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:35:55,009 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:10,158 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:36:11,361 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:13,647 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:36:14,632 (ERROR) - django.request - Internal Server Error: /store/customers/me/
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Customer' object has no attribute 'orders'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\views.py", line 101, in me
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\femto\.virtualenvs\treatnaturally-dev-t3QvP5Q1\Lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `orders` on serializer `CustomerSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Customer` instance.
+Original exception text was: 'Customer' object has no attribute 'orders'.
+2023-03-23 10:36:28,416 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:36:29,839 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:38,526 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:36:39,823 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:43,566 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:36:44,879 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:49,211 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:36:50,406 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:36:58,967 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
+2023-03-23 10:37:00,133 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

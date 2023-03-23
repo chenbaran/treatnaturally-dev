@@ -150,58 +150,6 @@ class BillingAddressSerializer(serializers.ModelSerializer):
         fields = ['id', 'first_name', 'last_name', 'country', 'city', 'street_address_1', 'street_address_2', 'zipcode', 'email', 'phone', 'order_notes', 'customer']
 
 
-class CustomerSerializer(serializers.ModelSerializer):
-    user_id = serializers.IntegerField(read_only=True)
-    interests = InterestsSerializer(many=True)
-    billing_address = BillingAddressSerializer
-    optional_shipping_address = OptionalShippingAddressSerializer
-
-    class Meta:
-        model = Customer
-        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'interests', 'billing_address', 'optional_shipping_address']
-
-    access = serializers.SerializerMethodField(method_name='get_access_true', read_only=True)
-    email = serializers.SerializerMethodField(method_name='get_email', read_only=True)
-    first_name = serializers.SerializerMethodField(method_name='get_first_name', read_only=True)
-    last_name = serializers.SerializerMethodField(method_name='get_last_name', read_only=True)
-    user = serializers.SerializerMethodField(method_name='get_username', read_only=True)
-
-    def get_access_true(self, customer:Customer):
-        return [True]
-    
-    def get_email(self, customer: Customer):
-        return [customer.user.email]
-    
-    def get_first_name(self, customer: Customer):
-        return [customer.user.first_name]
-    
-    def get_last_name(self, customer: Customer):
-        return [customer.user.last_name]
-    
-    def get_username(self, customer: Customer):
-        return [customer.user.username]
-
-    
-    def update(self, instance, validated_data):
-        # Get the interests data from the validated data
-        interests_data = validated_data.pop('interests', None)
-
-        # Call the superclass's update() method to update the other fields
-        instance = super().update(instance, validated_data)
-
-        # If there is interests data, update the customer's interests
-        if interests_data is not None:
-            # Clear the current interests of the customer
-            instance.interests.clear()
-
-            # Create new interest objects for the customer's interests
-            for interest_data in interests_data:
-                interest, _ = Interest.objects.get_or_create(label=interest_data['label'])
-                instance.interests.add(interest)
-
-        return instance
-            
-
 
 class OrderItemSerializer(serializers.ModelSerializer):
     product = SimpleProductSerializer()
@@ -294,3 +242,61 @@ class CreateOrderSerializer(serializers.Serializer):
 
 
 
+
+class CustomerSerializer(serializers.ModelSerializer):
+    user_id = serializers.IntegerField(read_only=True)
+    interests = InterestsSerializer(many=True)
+    billing_address = BillingAddressSerializer()
+    optional_shipping_address = OptionalShippingAddressSerializer()
+
+    class Meta:
+        model = Customer
+        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'orders', 'billing_address', 'optional_shipping_address', 'interests',]
+
+    access = serializers.SerializerMethodField(method_name='get_access_true', read_only=True)
+    email = serializers.SerializerMethodField(method_name='get_email', read_only=True)
+    first_name = serializers.SerializerMethodField(method_name='get_first_name', read_only=True)
+    last_name = serializers.SerializerMethodField(method_name='get_last_name', read_only=True)
+    user = serializers.SerializerMethodField(method_name='get_username', read_only=True)
+    orders = serializers.SerializerMethodField(method_name='get_orders', read_only=True)
+
+    def get_orders(self, instance):
+        orders = Order.objects.filter(customer=instance)
+        order_data = OrderSerializer(orders, many=True).data
+        return order_data
+
+    def get_access_true(self, customer:Customer):
+        return [True]
+    
+    def get_email(self, customer: Customer):
+        return [customer.user.email]
+    
+    def get_first_name(self, customer: Customer):
+        return [customer.user.first_name]
+    
+    def get_last_name(self, customer: Customer):
+        return [customer.user.last_name]
+    
+    def get_username(self, customer: Customer):
+        return [customer.user.username]
+
+
+    def update(self, instance, validated_data):
+        # Get the interests data from the validated data
+        interests_data = validated_data.pop('interests', None)
+
+        # Call the superclass's update() method to update the other fields
+        instance = super().update(instance, validated_data)
+
+        # If there is interests data, update the customer's interests
+        if interests_data is not None:
+            # Clear the current interests of the customer
+            instance.interests.clear()
+
+            # Create new interest objects for the customer's interests
+            for interest_data in interests_data:
+                interest, _ = Interest.objects.get_or_create(label=interest_data['label'])
+                instance.interests.add(interest)
+
+        return instance
+            
