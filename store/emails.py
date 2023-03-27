@@ -4,12 +4,13 @@ from django.conf import settings
 
 # Order confirmation mail
 def send_order_confirmation_email(order):
+    print(order.items.all())
     subject = 'Your Order Has Been Recieved!'
     message = f'Hi {order.billing_address.first_name}!\n\n'
     message += f'Your order #{order.id} has been received.\n\n'
     message += f'Order Items:\n\n'
     for item in order.items.all():
-        message += f'{item.orderitems.name} - Quantity: {item.orderitems.quantity}\n'
+        message += f'{item.product.name} - Quantity: {item.quantity}\n'
     message += f'Total: ${order.final_price}\n'
     if order.optional_shipping_address:    
         message += f'Shipping Address: {order.optional_shipping_address}\n'

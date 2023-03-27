@@ -42,8 +42,8 @@ def delete_customer_optional_shipping_address(sender, instance, **kwargs):
     
 
 
-# send order confirmation email
-@receiver(post_save, sender=Order)
-def send_order_confirmation(sender, instance, created, **kwargs):
-    if created:
-        send_order_confirmation_email(instance)
+# # send order confirmation email
+# @receiver(post_save, sender=Order)
+# def send_order_confirmation(sender, instance, created, **kwargs):
+#     if created:
+#         send_order_confirmation_email(instance)

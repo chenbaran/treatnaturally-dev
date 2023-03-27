@@ -27509,3 +27509,50 @@ Original exception text was: 'Customer' object has no attribute 'orders'.
 2023-03-23 10:36:50,406 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-23 10:36:58,967 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\serializers.py changed, reloading.
 2023-03-23 10:37:00,133 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:38:52,017 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:38:53,175 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:38:59,542 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:39:00,673 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:39:19,015 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:39:20,120 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:39:30,881 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:39:31,984 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:40:02,749 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:40:53,565 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:41:12,678 (WARNING) - django.request - Not Found: /favicon.ico
+2023-03-23 10:41:20,396 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-23 10:48:55,721 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:49:11,073 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:49:13,804 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:49:16,467 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:51:27,446 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:51:28,973 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-23 10:52:52,361 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:53:03,617 (WARNING) - django.request - Not Found: /Quit
+2023-03-23 10:53:13,600 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-23 10:55:45,121 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:55:45,198 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:55:46,515 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:55:49,658 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:55:50,853 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:55:58,803 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:58:05,606 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:58:05,733 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 10:58:07,045 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 10:58:08,615 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:01:37,415 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 11:01:38,626 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:01:41,796 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 11:01:43,000 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:02:12,532 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-23 11:02:30,291 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-23 11:06:48,287 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 11:06:49,506 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:06:53,120 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 11:06:54,304 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:06:55,864 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\emails.py changed, reloading.
+2023-03-23 11:06:57,005 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-23 11:07:15,814 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-03-23 11:07:32,380 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-03-27 11:34:32,993 (INFO) - django.utils.autoreload - C:\Users\femto\Documents\femto\לקוחות\TreatNaturally\Back\treatnaturally-dev\store\signals\handlers.py changed, reloading.
+2023-03-27 11:34:34,635 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
