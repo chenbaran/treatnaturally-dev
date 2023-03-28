@@ -84,7 +84,7 @@ class BillingAddress(models.Model):
     street_address_2 = models.CharField(max_length=255, blank=True)
     zipcode = models.CharField(max_length=30, blank=True)
     email = models.EmailField()
-    phone = models.CharField(max_length=31)
+    phone = models.CharField(max_length=31, blank=True)
     order_notes = models.TextField(max_length=1000, blank=True)
     customer = models.OneToOneField('Customer', on_delete=models.SET_NULL, null=True, blank=True)
     def __str__(self):
@@ -100,7 +100,7 @@ class OptionalShippingAddress(models.Model):
     street_address_2 = models.CharField(max_length=255, blank=True)
     zipcode = models.CharField(max_length=30, blank=True)
     email = models.EmailField()
-    phone = models.CharField(max_length=31)
+    phone = models.CharField(max_length=31, blank=True)
     order_notes = models.TextField(max_length=1000, blank=True, null=True)
     customer = models.OneToOneField('Customer', on_delete=models.SET_NULL, null=True, blank=True)
 
