@@ -30,7 +30,7 @@ class Product(models.Model):
         max_digits=6,
         decimal_places=2,
         validators=[MinValueValidator(1)])
-    discount_percentage = models.DecimalField(
+    discount = models.DecimalField(
         max_digits=3,
         decimal_places=0,
         validators=percentage_validator,
@@ -54,7 +54,7 @@ class ProductVariation(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='variations')
     quantity = models.IntegerField(validators=[MinValueValidator(1)], null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
-    discount_percentage = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
+    discount = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
     sku = models.CharField(max_length=255, null=True, blank=True)
     stock = models.IntegerField(validators=[MinValueValidator(0)], null=True, blank=True)
     image = models.ImageField(upload_to='store/images', validators=[validate_file_size], null=True, blank=True)
@@ -112,23 +112,23 @@ class OptionalShippingAddress(models.Model):
 
 class Membership(models.Model):
     label = models.CharField(max_length=255)
-    discount_percentage = models.DecimalField(max_digits=3, decimal_places=0, default=Decimal(0), validators=percentage_validator)
+    discount = models.DecimalField(max_digits=3, decimal_places=0, default=Decimal(0), validators=percentage_validator)
 
     def __str__(self):
         return f"{self.label}"
 
 class Customer(models.Model):
-    MEMBERSHIP_FREE = 'Free'
-    MEMBERSHIP_BRONZE = 'Bronze'
-    MEMBERSHIP_SILVER = 'Silver'
-    MEMBERSHIP_GOLD = 'Gold'
+    # MEMBERSHIP_FREE = 'Free'
+    # MEMBERSHIP_BRONZE = 'Bronze'
+    # MEMBERSHIP_SILVER = 'Silver'
+    # MEMBERSHIP_GOLD = 'Gold'
 
-    MEMBERSHIP_CHOICES = [
-        (MEMBERSHIP_FREE, 'Free'),
-        (MEMBERSHIP_BRONZE, 'Bronze'),
-        (MEMBERSHIP_SILVER, 'Silver'),
-        (MEMBERSHIP_GOLD, 'Gold'),
-    ]
+    # MEMBERSHIP_CHOICES = [
+    #     (MEMBERSHIP_FREE, 'Free'),
+    #     (MEMBERSHIP_BRONZE, 'Bronze'),
+    #     (MEMBERSHIP_SILVER, 'Silver'),
+    #     (MEMBERSHIP_GOLD, 'Gold'),
+    # ]
 
     phone = models.CharField(max_length=255, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)

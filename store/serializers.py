@@ -244,7 +244,7 @@ class CreateOrderSerializer(serializers.Serializer):
 class MembershipSerializer(serializers.ModelSerializer):
     class Meta:
         model = Membership
-        fields = ['id', 'label', 'discount_percentage']
+        fields = ['id', 'label', 'discount']
 
 class CustomerSerializer(serializers.ModelSerializer):
     membership = MembershipSerializer()

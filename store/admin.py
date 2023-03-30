@@ -137,9 +137,9 @@ class CustomerAdmin(admin.ModelAdmin):
 
 @admin.register(models.Membership)
 class MembershipAdmin(admin.ModelAdmin):
-    list_display = ['label', 'discount_percentage']
-    list_editable = ['discount_percentage']
-    fields = ['label', 'discount_percentage']
+    list_display = ['label', 'discount']
+    list_editable = ['discount']
+    fields = ['label', 'discount']
 
 @admin.register(models.Interest)
 class InterestAdmin(admin.ModelAdmin):
