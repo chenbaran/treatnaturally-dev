@@ -247,7 +247,11 @@ class MembershipSerializer(serializers.ModelSerializer):
         fields = ['id', 'label', 'discount']
 
 class CustomerSerializer(serializers.ModelSerializer):
-    membership = MembershipSerializer()
+    membership = serializers.SlugRelatedField(
+        slug_field='label',
+        queryset=Membership.objects.all(),
+        required=False,
+    )
     user_id = serializers.IntegerField(read_only=True)
     interests = InterestsSerializer(many=True)
     billing_address = BillingAddressSerializer()
@@ -255,7 +259,7 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'orders', 'billing_address', 'optional_shipping_address', 'interests',]
+        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'membership_discount', 'orders', 'billing_address', 'optional_shipping_address', 'interests',]
 
     access = serializers.SerializerMethodField(method_name='get_access_true', read_only=True)
     email = serializers.SerializerMethodField(method_name='get_email', read_only=True)
@@ -263,6 +267,9 @@ class CustomerSerializer(serializers.ModelSerializer):
     last_name = serializers.SerializerMethodField(method_name='get_last_name', read_only=True)
     user = serializers.SerializerMethodField(method_name='get_username', read_only=True)
     orders = serializers.SerializerMethodField(method_name='get_orders', read_only=True)
+    membership_discount = serializers.DecimalField(
+    max_digits=3, decimal_places=0, read_only=True, source='membership.discount'
+)
 
     def get_orders(self, instance):
         orders = Order.objects.filter(customer=instance)
@@ -285,8 +292,9 @@ class CustomerSerializer(serializers.ModelSerializer):
         return [customer.user.username]
 
 
+
     def update(self, instance, validated_data):
-        # Get the interests data from the validated data
+        # Handle the interests data as you did before
         interests_data = validated_data.pop('interests', None)
 
         # Call the superclass's update() method to update the other fields

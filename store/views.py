@@ -104,7 +104,6 @@ class CustomerViewSet(ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data)
-
         elif request.method == 'PATCH':
             print(request.data)
             customer = request.user.customer
