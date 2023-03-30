@@ -1,12 +1,12 @@
 from django.db import models
-
-# Create your models here.
 from django.contrib import admin
 from django.conf import settings
 from django.core.validators import MinValueValidator, FileExtensionValidator, MaxValueValidator
 from django.db import models
 from uuid import uuid4
-from .validators import validate_file_size
+from decimal import Decimal
+from .validators import validate_file_size, percentage_validator
+
 
 
 class Category(models.Model):
@@ -30,10 +30,10 @@ class Product(models.Model):
         max_digits=6,
         decimal_places=2,
         validators=[MinValueValidator(1)])
-    discount = models.DecimalField(
-        max_digits=6,
-        decimal_places=2,
-        validators=[MinValueValidator(1)],
+    discount_percentage = models.DecimalField(
+        max_digits=3,
+        decimal_places=0,
+        validators=percentage_validator,
         null=True, 
         blank=True)
     offerend = models.DateTimeField(blank=True, null=True)
@@ -54,6 +54,7 @@ class ProductVariation(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='variations')
     quantity = models.IntegerField(validators=[MinValueValidator(1)], null=True, blank=True)
     price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
+    discount_percentage = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
     sku = models.CharField(max_length=255, null=True, blank=True)
     stock = models.IntegerField(validators=[MinValueValidator(0)], null=True, blank=True)
     image = models.ImageField(upload_to='store/images', validators=[validate_file_size], null=True, blank=True)
@@ -108,6 +109,14 @@ class OptionalShippingAddress(models.Model):
     def __str__(self):
         return self.first_name + ' ' + self.last_name + ' - ' + self.street_address_1 + ' ' + self.street_address_2 + ' ' + self.city + ', ' + self.country + ', ' + self.zipcode
 
+
+class Membership(models.Model):
+    label = models.CharField(max_length=255)
+    discount_percentage = models.DecimalField(max_digits=3, decimal_places=0, default=Decimal(0), validators=percentage_validator)
+
+    def __str__(self):
+        return f"{self.label}"
+
 class Customer(models.Model):
     MEMBERSHIP_FREE = 'Free'
     MEMBERSHIP_BRONZE = 'Bronze'
@@ -123,8 +132,7 @@ class Customer(models.Model):
 
     phone = models.CharField(max_length=255, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
-    membership = models.CharField(
-        max_length=10, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_FREE)
+    membership = models.ForeignKey(Membership, on_delete=models.SET_NULL, null=True, blank=True)
     interests = models.ManyToManyField(Interest, blank=True)
     billing_address = models.OneToOneField(BillingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_billing_address')
     optional_shipping_address = models.OneToOneField(OptionalShippingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_optional_shipping_address')

@@ -2,7 +2,7 @@ from decimal import Decimal
 from django.db import transaction
 from rest_framework import serializers
 from .signals import order_created
-from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest, BillingAddress, OptionalShippingAddress, ProductVariation
+from .models import Cart, CartItem, Customer, Order, OrderItem, Product, Category, ProductImage, Review, Interest, BillingAddress, OptionalShippingAddress, ProductVariation, Membership
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -241,9 +241,13 @@ class CreateOrderSerializer(serializers.Serializer):
 
 
 
-
+class MembershipSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Membership
+        fields = ['id', 'label', 'discount_percentage']
 
 class CustomerSerializer(serializers.ModelSerializer):
+    membership = MembershipSerializer()
     user_id = serializers.IntegerField(read_only=True)
     interests = InterestsSerializer(many=True)
     billing_address = BillingAddressSerializer()

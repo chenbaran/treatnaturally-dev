@@ -135,6 +135,11 @@ class CustomerAdmin(admin.ModelAdmin):
         )
 
 
+@admin.register(models.Membership)
+class MembershipAdmin(admin.ModelAdmin):
+    list_display = ['label', 'discount_percentage']
+    list_editable = ['discount_percentage']
+    fields = ['label', 'discount_percentage']
 
 @admin.register(models.Interest)
 class InterestAdmin(admin.ModelAdmin):
@@ -201,3 +206,5 @@ class OrderAdmin(admin.ModelAdmin):
         email = instance.billing_address.email
         phone = instance.billing_address.phone
         return format_html('<a href="mailto:{}">{}<a/> | <a href="tel:{}">{}</a>', email, email, phone, phone)
+    
+

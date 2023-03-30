@@ -16,7 +16,7 @@ ALLOWED_HOSTS = ['*']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'treatnaturallystore',
+        'NAME': 'treatnaturally_store',
         'HOST': 'localhost',
         'USER': 'root',
         'PASSWORD': 'Femto1828##'
