@@ -53,6 +53,7 @@ class Product(models.Model):
 class ProductVariation(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='variations')
     quantity = models.IntegerField(validators=[MinValueValidator(1)], null=True, blank=True)
+    type = models.CharField(max_length=255)
     price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
     discount = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
     sku = models.CharField(max_length=255, null=True, blank=True)
