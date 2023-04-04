@@ -43,15 +43,14 @@ class ProductAdmin(admin.ModelAdmin):
     actions = ['clear_stock']
     inlines = [ProductImageInline, ProductVariationInline]
     list_display = ['name', 'price',
-                    'stock_status', 'category_title']
+                    'stock_status', 'categories']
     list_editable = ['price']
     list_filter = ['category', 'last_update', StockFilter]
     list_per_page = 10
-    list_select_related = ['category']
     search_fields = ['name']
 
-    def category_title(self, product):
-        return product.category.title
+    def categories(self, obj):
+        return ", ".join([category.title for category in obj.category.all()])
 
     @admin.display(ordering='stock')
     def stock_status(self, product):

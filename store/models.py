@@ -41,8 +41,8 @@ class Product(models.Model):
     rating = models.IntegerField(validators=[MinValueValidator(0), MaxValueValidator(5)], null=True, blank=True)
     stock = models.IntegerField(validators=[MinValueValidator(0)])
     last_update = models.DateTimeField(auto_now=True)
-    category = models.ForeignKey(
-        Category, on_delete=models.PROTECT, related_name='products')
+    category = models.ManyToManyField(
+        Category, related_name='products')
 
     def __str__(self) -> str:
         return self.name

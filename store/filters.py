@@ -1,10 +1,13 @@
-from django_filters.rest_framework import FilterSet
-from .models import Product
+from django import forms
+import django_filters
+from .models import Product, Category
 
-class ProductFilter(FilterSet):
-  class Meta:
-    model = Product
-    fields = {
-      'category_id': ['exact'],
-      'price': ['gt', 'lt']
-    }
+class ProductFilter(django_filters.FilterSet):
+    name = django_filters.CharFilter(lookup_expr='icontains')
+    category = django_filters.ModelMultipleChoiceFilter(
+        queryset=Category.objects.all(),
+        widget=forms.CheckboxSelectMultiple)
+
+    class Meta:
+        model = Product
+        fields = ['category', 'name']

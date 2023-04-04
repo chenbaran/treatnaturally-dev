@@ -29,6 +29,7 @@ class ProductVariationSerializer(serializers.ModelSerializer):
 class ProductSerializer(serializers.ModelSerializer):
     images = ProductImageSerializer(many=True, read_only=True)
     variations = ProductVariationSerializer(many=True, read_only=True)
+    category = CategorySerializer(many=True, read_only=True)
     class Meta:
         model = Product
         fields = ['id', 'name', 'shortDescription', 'fullDescription', 'slug', 'stock',
@@ -39,11 +40,6 @@ class ProductSerializer(serializers.ModelSerializer):
 
     def calculate_tax(self, product: Product):
         return product.price * Decimal(1.1)
-    
-    category = serializers.SerializerMethodField(method_name='get_category_title')
-
-    def get_category_title(self, product: Product):
-        return [product.category.title]
 
 
 class ReviewSerializer(serializers.ModelSerializer):
