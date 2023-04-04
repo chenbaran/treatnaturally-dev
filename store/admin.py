@@ -208,3 +208,8 @@ class OrderAdmin(admin.ModelAdmin):
         return format_html('<a href="mailto:{}">{}<a/> | <a href="tel:{}">{}</a>', email, email, phone, phone)
     
 
+
+@admin.register(models.Coupon)
+class CouponAdmin(admin.ModelAdmin):
+    list_display = ['coupon_code', 'discount', 'expiry_date']
+    fields = ['coupon_code', 'discount', 'expiry_date']

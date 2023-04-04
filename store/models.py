@@ -223,3 +223,9 @@ class Review(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     date = models.DateField(auto_now_add=True)
+
+
+class Coupon(models.Model):
+    coupon_code = models.CharField(max_length=255)
+    discount = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
+    expiry_date = models.DateField(blank=True, null=True)

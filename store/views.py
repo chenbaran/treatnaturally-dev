@@ -12,8 +12,8 @@ from rest_framework import status
 from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, IsAdminUserOrPostRequest, ViewCustomerHistoryPermission
 from store.pagination import DefaultPagination
 from .filters import ProductFilter
-from .models import BillingAddress, Cart, CartItem, Category, Customer, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
-from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CreateOrderSerializer, CustomerSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
+from .models import BillingAddress, Cart, CartItem, Category, Coupon, Customer, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
+from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CouponSerializer, CreateOrderSerializer, CustomerSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
 
 
 class ProductViewSet(ModelViewSet):
@@ -222,3 +222,10 @@ class ProductImageViewSet(ModelViewSet):
 
     def get_queryset(self):
         return ProductImage.objects.filter(product_id=self.kwargs['product_pk'])
+
+
+class CouponViewSet(ModelViewSet):
+    http_method_names = ['get']
+    permission_classes = [AllowAny]
+    serializer_class = CouponSerializer
+    queryset = Coupon.objects.all()
