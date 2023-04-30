@@ -35,11 +35,11 @@ CACHES = {
         }
     }
 }
-
-EMAIL_HOST = 'localhost'
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-EMAIL_PORT = 2525
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.treatnaturally.co.uk'
+EMAIL_HOST_USER = 'noreply@treatnaturally.co.uk'
+EMAIL_HOST_PASSWORD = ')6=nI7r#fowI'
+EMAIL_PORT = 587
 DEFAULT_FROM_EMAIL = 'noreply@treatnaturally.co.uk'
 
 DEBUG_TOOLBAR_CONFIG = {

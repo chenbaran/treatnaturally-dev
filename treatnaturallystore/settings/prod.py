@@ -31,10 +31,13 @@ CACHES = {
 }
 
 
-EMAIL_HOST = os.environ['MAILGUN_SMTP_SERVER']
-EMAIL_HOST_USER = os.environ['MAILGUN_SMTP_LOGIN']
-EMAIL_HOST_PASSWORD = os.environ['MAILGUN_SMTP_PASSWORD']
-EMAIL_PORT = os.environ['MAILGUN_SMTP_PORT']
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.treatnaturally.co.uk'
+EMAIL_HOST_USER = 'noreply@treatnaturally.co.uk'
+EMAIL_HOST_PASSWORD = os.environ['CPANEL_MAIL_PASSWORD']
+EMAIL_PORT = 587
+DEFAULT_FROM_EMAIL = 'noreply@treatnaturally.co.uk'
+
 
 
 CORS_ORIGIN_ALLOW_ALL = True
