@@ -39,7 +39,7 @@ def send_order_alert_to_admin(order):
         items_table += f'<tr><td style="padding: 8px; border: 1px solid #ddd;">{item.product.name}</td><td style="padding: 8px; border: 1px solid #ddd;">{item.quantity}</td><td style="padding: 8px; border: 1px solid #ddd;">${item.final_price_after_discount}</td></tr>'
     items_table += '</tbody></table>'
 
-    subject = 'Your Order Has Been Received!'
+    subject = f'New Order #{order.id} - treatnaturally.co.uk'
     message = f'<h3>New order from customer {order.billing_address.first_name} {order.billing_address.last_name}!</h3>'
     message += f'<h4>Order #{order.id}</h4>'
     message += f'<h4>Order Items:</h4>'
