@@ -17,7 +17,7 @@ def send_order_confirmation_email(order):
     message += f'<h4>Your order #{order.id} has been received.</h4>'
     message += f'<h4>Order Items:</h4>'
     message += f'{items_table}'
-    message += f'<h4>Total: ${order.final_price}</h4>'
+    message += f'<h4>Total: £{order.final_price}</h4>'
     if order.optional_shipping_address:
         message += f'Shipping Address:<br>{order.optional_shipping_address}'
     else:
@@ -44,7 +44,7 @@ def send_order_alert_to_admin(order):
     message += f'<h4>Order #{order.id}</h4>'
     message += f'<h4>Order Items:</h4>'
     message += f'{items_table}'
-    message += f'<h4>Total: ${order.final_price}</h4>'
+    message += f'<h4>Total: £{order.final_price}</h4>'
     if order.optional_shipping_address:
         message += f'Shipping Address:<br>{order.optional_shipping_address}'
     else:
