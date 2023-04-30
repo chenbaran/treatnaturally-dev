@@ -120,8 +120,6 @@ class BillingAddressViewSet(ModelViewSet):
     serializer_class = BillingAddressSerializer
     queryset = BillingAddress.objects.all()
 
-
-
     @action(detail=False, methods=['GET', 'PUT', 'PATCH', 'POST', 'DELETE'], permission_classes=[IsAuthenticated])
     def me(self, request):
         user_id = request.user.id
@@ -132,12 +130,12 @@ class BillingAddressViewSet(ModelViewSet):
             serializer = BillingAddressSerializer(billing_address)
             return Response(serializer.data)
         elif request.method in ['PUT', 'PATCH']:
-            serializer = BillingAddressSerializer(billing_address, data=request.data)
+            serializer = BillingAddressSerializer(data=request.data, instance=billing_address)
             serializer.is_valid(raise_exception=True)
             serializer.save(customer=customer)
             return Response(serializer.data)
         elif request.method in ['POST']:
-            serializer = BillingAddressSerializer(billing_address, data=request.data)
+            serializer = BillingAddressSerializer(data=request.data)
             serializer.is_valid(raise_exception=True)
             serializer.save(customer=customer)
             return Response(serializer.data)

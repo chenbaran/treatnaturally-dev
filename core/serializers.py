@@ -1,13 +1,7 @@
-import json
-from django.forms import model_to_dict
-from django.http import HttpResponse
 from djoser.serializers import UserSerializer as BaseUserSerializer, UserCreateSerializer as BaseUserCreateSerializer
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
-from rest_framework_simplejwt.tokens import RefreshToken
-
-from store.serializers import BillingAddressSerializer, OptionalShippingAddressSerializer
-from .models import User
-from store.models import Customer
+from rest_framework import serializers
+from .models import Graphics, HomePageSlider, HomePageSmallPicture, Logo
 
 class UserCreateSerializer(BaseUserCreateSerializer):
     class Meta(BaseUserCreateSerializer.Meta):
@@ -18,8 +12,6 @@ class UserCreateSerializer(BaseUserCreateSerializer):
 class UserSerializer(BaseUserSerializer):
     class Meta(BaseUserSerializer.Meta):
         fields = ['id', 'username', 'email', 'first_name', 'last_name']
-
-
 
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
@@ -34,3 +26,30 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
         data.update({'id': self.user.id})
         # and everything else you want to send in the response
         return data
+
+
+
+
+class HomePageSliderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HomePageSlider
+        fields = ['id', 'subtitle', 'image', 'link']
+
+class HomePageSmallPictureSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HomePageSmallPicture
+        fields = ['id', 'title', 'subtitle', 'image', 'link']
+
+class LogoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Logo
+        fields = ['id', 'image']
+
+class GraphicsSerializer(serializers.ModelSerializer):
+    home_page_slider = HomePageSliderSerializer(many=True, read_only=True)
+    home_page_small_picture = HomePageSmallPictureSerializer(many=True, read_only=True)
+    logo = LogoSerializer(read_only=True)
+
+    class Meta:
+        model = Graphics
+        fields = ['home_page_slider', 'home_page_small_picture', 'logo']

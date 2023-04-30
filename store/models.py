@@ -19,6 +19,7 @@ class Category(models.Model):
 
     class Meta:
         ordering = ['title']
+        verbose_name_plural = 'Categories'
 
 class Product(models.Model):
     name = models.CharField(max_length=255)
@@ -196,9 +197,8 @@ class OrderItem(models.Model):
     quantity = models.PositiveSmallIntegerField()
     unit_price = models.DecimalField(max_digits=6, decimal_places=2)
     final_price_after_discount = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
-
-
-
+    
+    
 class Cart(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4)
     created_at = models.DateTimeField(auto_now_add=True)

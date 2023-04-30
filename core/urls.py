@@ -5,9 +5,9 @@ from rest_framework_nested import routers
 from . import views
 
 router = routers.DefaultRouter()
-router.register('createtoken', views.TokenObtainPairView, basename='create-tokens')
+router.register('graphics', views.GraphicsViewSet, basename='graphics')
 
-urlpatterns = [
+urlpatterns = router.urls + [
     path('createtokens/', views.MyTokenObtainPairView.as_view(), name="create-tokens"),
     path('', TemplateView.as_view(template_name='core/index.html'))
-]
+    ]
