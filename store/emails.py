@@ -44,13 +44,11 @@ def send_order_alert_to_admin(order):
     message += f'<h4>Order #{order.id}</h4>'
     message += f'<h4>Order Items:</h4>'
     message += f'{items_table}'
-    message += f'<h4>Total: £{order.final_price}</h4>'
+    message += f'<h4>Total: £{order.final_price}</h4><br><br>'
     if order.optional_shipping_address:
         message += f'Shipping Address:<br>{order.optional_shipping_address}'
     else:
         message += f'Shipping Address:<br>{order.billing_address}'
-    order_change_url = reverse('admin:store_order_change', args=[order.id])
-    message += f'<br><a href="{order_change_url}">View order here</a>'
     from_email = settings.DEFAULT_FROM_EMAIL
     recipient_list = ['info@treatnaturally.co.uk']
     html_message = f'<html><body style="font-family: Roboto;">{message}</body></html>'
