@@ -1,7 +1,7 @@
 from djoser.serializers import UserSerializer as BaseUserSerializer, UserCreateSerializer as BaseUserCreateSerializer
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
-from .models import Graphics, HomePageSlider, HomePageSmallPicture, Logo
+from .models import Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry
 
 class UserCreateSerializer(BaseUserCreateSerializer):
     class Meta(BaseUserCreateSerializer.Meta):
@@ -40,6 +40,11 @@ class HomePageSmallPictureSerializer(serializers.ModelSerializer):
         model = HomePageSmallPicture
         fields = ['id', 'title', 'subtitle', 'image', 'link']
 
+class HomePageIconSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = HomePageIcon
+        fields = ['id', 'title', 'subtitle', 'image']
+
 class LogoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Logo
@@ -48,8 +53,14 @@ class LogoSerializer(serializers.ModelSerializer):
 class GraphicsSerializer(serializers.ModelSerializer):
     home_page_slider = HomePageSliderSerializer(many=True, read_only=True)
     home_page_small_picture = HomePageSmallPictureSerializer(many=True, read_only=True)
+    home_page_icon = HomePageIconSerializer(many=True, read_only=True)
     logo = LogoSerializer(read_only=True)
 
     class Meta:
         model = Graphics
-        fields = ['home_page_slider', 'home_page_small_picture', 'logo']
+        fields = ['home_page_slider', 'home_page_small_picture', 'home_page_icon', 'logo']
+
+class ContactFormEntrySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ContactFormEntry
+        fields = ['name', 'email', 'subject', 'message']

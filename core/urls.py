@@ -6,6 +6,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register('graphics', views.GraphicsViewSet, basename='graphics')
+router.register('contactformentries', views.ContactFormEntryViewSet, basename='contact-form-entries')
 
 urlpatterns = router.urls + [
     path('createtokens/', views.MyTokenObtainPairView.as_view(), name="create-tokens"),

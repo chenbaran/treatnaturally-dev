@@ -46,6 +46,16 @@ class HomePageSmallPicture(models.Model):
         ordering = ['id']
         verbose_name_plural = 'Home Page Small Pictures'
 
+class HomePageIcon(models.Model):
+    graphics = models.ForeignKey(Graphics, on_delete=models.CASCADE, related_name='home_page_icon')
+    title = models.CharField(max_length=255, null=True, blank=True)
+    subtitle = models.CharField(max_length=255, null=True, blank=True)
+    image = models.ImageField(upload_to='graphics/home_page_slider/', null=True, blank=True)
+
+    class Meta:
+        ordering = ['id']
+        verbose_name_plural = 'Home Page Icons'
+
 class Logo(models.Model):
     graphics = models.OneToOneField(Graphics, on_delete=models.CASCADE, related_name='logo')
     image = models.ImageField(upload_to='graphics/logo/', null=True, blank=True)
@@ -63,3 +73,14 @@ class Logo(models.Model):
     def delete(self, *args, **kwargs):
         self.image.delete()
         super().delete(*args, **kwargs)
+
+
+class ContactFormEntry(models.Model):
+    name = models.CharField(max_length=255, null=True, blank=True)
+    email = models.CharField(max_length=255, null=True, blank=True)
+    subject = models.CharField(max_length=255, null=True, blank=True)
+    message = models.TextField(max_length=2550, null=True, blank=True)
+
+    class Meta:
+        ordering = ['id']
+        verbose_name_plural = 'Contact Form Entries'

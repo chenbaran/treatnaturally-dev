@@ -9,7 +9,7 @@ from tags.models import TaggedItem
 from store.models import Product
 from blog.models import BlogPost
 from ailments.models import AilmentItem
-from .models import Graphics, HomePageSlider, HomePageSmallPicture, Logo, User
+from .models import Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry, User
 
 @admin.register(User)
 class UserAdmin(BaseUserAdmin):
@@ -31,6 +31,11 @@ class HomePageSmallPictureInline(admin.TabularInline):
     extra = 3
     max_num = 3
 
+class HomePageIconInline(admin.TabularInline):
+    model = HomePageIcon
+    extra = 3
+    max_num = 3
+
 class LogoInline(admin.StackedInline):
     model = Logo
     max_num = 1
@@ -39,6 +44,7 @@ class GraphicsAdmin(admin.ModelAdmin):
     inlines = [
         HomePageSliderInline,
         HomePageSmallPictureInline,
+        HomePageIconInline,
         LogoInline,
     ]
 
@@ -63,6 +69,12 @@ class GraphicsAdmin(admin.ModelAdmin):
             ] + urls
 
 
+class ContactFormEntryAdmin(admin.ModelAdmin):
+    list_display = ['name', 'email', 'subject', 'message']
+    readonly_fields = ['name', 'email', 'subject', 'message']
+    list_per_page = 20
+    search_fields = ['name__istartswith', 'email__istartswith']
+
 
 class TagInline(GenericTabularInline):
     autocomplete_fields = ['tag']
@@ -81,6 +93,7 @@ class CustomBlogAdmin(BlogAdmin):
 
 
 admin.site.register(Graphics, GraphicsAdmin)
+admin.site.register(ContactFormEntry, ContactFormEntryAdmin)
 admin.site.unregister(Product)
 admin.site.register(Product, CustomProductAdmin)
 admin.site.unregister(BlogPost)
