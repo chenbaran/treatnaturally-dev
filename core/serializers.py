@@ -1,7 +1,7 @@
 from djoser.serializers import UserSerializer as BaseUserSerializer, UserCreateSerializer as BaseUserCreateSerializer
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from rest_framework import serializers
-from .models import Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry
+from .models import BusinessDetails, Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry
 
 class UserCreateSerializer(BaseUserCreateSerializer):
     class Meta(BaseUserCreateSerializer.Meta):
@@ -64,3 +64,8 @@ class ContactFormEntrySerializer(serializers.ModelSerializer):
     class Meta:
         model = ContactFormEntry
         fields = ['name', 'email', 'subject', 'message']
+
+class BusinessDetailsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = BusinessDetails
+        fields = ['business_name', 'business_phone', 'business_address']

@@ -9,7 +9,7 @@ from tags.models import TaggedItem
 from store.models import Product
 from blog.models import BlogPost
 from ailments.models import AilmentItem
-from .models import Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry, User
+from .models import BusinessDetails, Graphics, HomePageSlider, HomePageSmallPicture, HomePageIcon, Logo, ContactFormEntry, User
 
 @admin.register(User)
 class UserAdmin(BaseUserAdmin):
@@ -68,6 +68,26 @@ class GraphicsAdmin(admin.ModelAdmin):
                 path('', lambda request: HttpResponseRedirect(reverse('admin:%s_%s_change' % (self.model._meta.app_label, self.model._meta.model_name), args=[Graphics.objects.first().pk]))),
             ] + urls
 
+class BusinessDetailsAdmin(admin.ModelAdmin):
+    change_form_template = 'core/change_form.html'
+    
+    def has_delete_permission(self, request, obj=None):
+      return False
+
+    def get_urls(self):
+        urls = super().get_urls()
+        if not BusinessDetails.objects.exists():
+            # Create a new Graphics object
+            businessdetails = BusinessDetails.objects.create()
+            # Redirect to the change page for the new object
+            return [
+                path('', lambda request: HttpResponseRedirect(reverse('admin:%s_%s_change' % (self.model._meta.app_label, self.model._meta.model_name), args=[businessdetails.pk]))),
+            ] + urls
+        else:
+            # Redirect to the change page for the first Graphics object
+            return [
+                path('', lambda request: HttpResponseRedirect(reverse('admin:%s_%s_change' % (self.model._meta.app_label, self.model._meta.model_name), args=[BusinessDetails.objects.first().pk]))),
+            ] + urls
 
 class ContactFormEntryAdmin(admin.ModelAdmin):
     list_display = ['name', 'email', 'subject', 'message']
@@ -91,7 +111,7 @@ class CustomProductAdmin(ProductAdmin):
 class CustomBlogAdmin(BlogAdmin):
     inlines = [BlogPostImageInline, TagInline, AilmentInline]
 
-
+admin.site.register(BusinessDetails, BusinessDetailsAdmin)
 admin.site.register(Graphics, GraphicsAdmin)
 admin.site.register(ContactFormEntry, ContactFormEntryAdmin)
 admin.site.unregister(Product)

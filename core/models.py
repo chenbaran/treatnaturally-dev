@@ -50,7 +50,7 @@ class HomePageIcon(models.Model):
     graphics = models.ForeignKey(Graphics, on_delete=models.CASCADE, related_name='home_page_icon')
     title = models.CharField(max_length=255, null=True, blank=True)
     subtitle = models.CharField(max_length=255, null=True, blank=True)
-    image = models.ImageField(upload_to='graphics/home_page_slider/', null=True, blank=True)
+    image = models.ImageField(upload_to='graphics/home_page_icon/', null=True, blank=True)
 
     class Meta:
         ordering = ['id']
@@ -73,6 +73,29 @@ class Logo(models.Model):
     def delete(self, *args, **kwargs):
         self.image.delete()
         super().delete(*args, **kwargs)
+
+
+class BusinessDetails(models.Model):
+    business_name = models.CharField(max_length=255, null=True, blank=True)
+    business_phone = models.CharField(max_length=255, null=True, blank=True)
+    business_address = models.CharField(max_length=255, null=True, blank=True)
+
+    class Meta:
+        verbose_name_plural = 'Business Details'
+
+    def __str__(self) -> str:
+        return 'Business Details'
+
+    def get_absolute_url(self):
+        return reverse('admin:yourapp_businessdetails_change', args=[self.pk])
+
+    def save(self, *args, **kwargs):
+        if self.pk is None and BusinessDetails.objects.exists():
+          raise ValidationError('There can be only one instance of the Business Details model')
+        return super().save(*args, **kwargs)
+
+    def delete(self, *args, **kwargs):
+      raise ValidationError('Cannot delete instance of Business Details model')
 
 
 class ContactFormEntry(models.Model):
