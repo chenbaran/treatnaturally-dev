@@ -2,6 +2,8 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.forms import ValidationError
 from django.urls import reverse
+from ckeditor.fields import RichTextField
+
 
 # Create your models here.
 class User(AbstractUser):
@@ -79,6 +81,7 @@ class BusinessDetails(models.Model):
     business_name = models.CharField(max_length=255, null=True, blank=True)
     business_phone = models.CharField(max_length=255, null=True, blank=True)
     business_address = models.CharField(max_length=255, null=True, blank=True)
+    refunds_and_returns = RichTextField(null=True, blank=True)
 
     class Meta:
         verbose_name_plural = 'Business Details'

@@ -68,4 +68,4 @@ class ContactFormEntrySerializer(serializers.ModelSerializer):
 class BusinessDetailsSerializer(serializers.ModelSerializer):
     class Meta:
         model = BusinessDetails
-        fields = ['business_name', 'business_phone', 'business_address']
+        fields = ['business_name', 'business_phone', 'business_address', 'refunds_and_returns']
