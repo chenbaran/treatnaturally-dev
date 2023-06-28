@@ -5,7 +5,7 @@ from django.urls import reverse
 
 # Order confirmation mail
 def send_order_confirmation_email(order):
-    items_table = '<table style="font-family: Roboto; border-collapse: collapse; border: 1px solid #ddd; margin-top:10px margin-bottom: 10px;">'
+    items_table = '<table style="font-family: Arial; border-collapse: collapse; border: 1px solid #ddd; margin-top:10px margin-bottom: 10px;">'
     items_table += '<thead style="color: white; background-color: #04aa6d;"><tr><th style="text-align: left; padding: 8px;">Product</th><th style="text-align: left; padding: 8px;">Quantity</th><th style="text-align: left; padding: 8px;">Final Price</th></tr></thead>'
     items_table += '<tbody>'
     for item in order.items.all():
@@ -23,16 +23,16 @@ def send_order_confirmation_email(order):
     else:
         message += f'Shipping Address: {order.billing_address}'
     message += '<br><br>Thank you for shopping at <a href="https://treatnaturally.co.uk">TreatNaturally!</a>'
-    message += '<br><br>Business address goes here'
+    message += '<br><br>IPURE NUTRITION <br>311 HALE ROAD, HALE BARNS, WA15 8SS'
     from_email = settings.DEFAULT_FROM_EMAIL
     recipient_list = [order.billing_address.email]
-    html_message = f'<html><body style="font-family: Roboto">{message}</body></html>'
+    html_message = f'<html><body style="font-family: Arial">{message}</body></html>'
     send_mail(subject, message, from_email, recipient_list, html_message=html_message)
 
 
 
 def send_order_alert_to_admin(order):
-    items_table = '<table style="font-family: Roboto; border-collapse: collapse; border: 1px solid #ddd; margin-top:10px margin-bottom: 10px;">'
+    items_table = '<table style="font-family: Arial; border-collapse: collapse; border: 1px solid #ddd; margin-top:10px margin-bottom: 10px;">'
     items_table += '<thead style="color: white; background-color: #04aa6d"><tr><th style="text-align: left; padding: 8px;">Product</th><th style="text-align: left; padding: 8px;">Quantity</th><th style="text-align: left; padding: 8px;">Final Price</th></tr></thead>'
     items_table += '<tbody>'
     for item in order.items.all():
@@ -51,5 +51,5 @@ def send_order_alert_to_admin(order):
         message += f'Shipping Address:<br>{order.billing_address}'
     from_email = settings.DEFAULT_FROM_EMAIL
     recipient_list = ['info@treatnaturally.co.uk']
-    html_message = f'<html><body style="font-family: Roboto;">{message}</body></html>'
+    html_message = f'<html><body style="font-family: Arial;">{message}</body></html>'
     send_mail(subject, message, from_email, recipient_list, html_message=html_message)

@@ -12,8 +12,8 @@ from rest_framework import status
 from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, IsAdminUserOrPostRequest, ViewCustomerHistoryPermission
 from store.pagination import DefaultPagination
 from .filters import ProductFilter
-from .models import BillingAddress, Cart, CartItem, Category, Coupon, Customer, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
-from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CouponSerializer, CreateOrderSerializer, CustomerSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
+from .models import BillingAddress, Cart, CartItem, Category, Coupon, Customer, Interest, OptionalShippingAddress, Order, OrderItem, Product, ProductImage, Review
+from .serializers import AddCartItemSerializer, BillingAddressSerializer, CartItemSerializer, CartSerializer, CategorySerializer, CouponSerializer, CreateOrderSerializer, CustomerSerializer, InterestsSerializer, OptionalShippingAddressSerializer, OrderSerializer, ProductImageSerializer, ProductSerializer, ReviewSerializer, UpdateCartItemSerializer, UpdateOrderSerializer
 
 
 class ProductViewSet(ModelViewSet):
@@ -227,3 +227,10 @@ class CouponViewSet(ModelViewSet):
     permission_classes = [AllowAny]
     serializer_class = CouponSerializer
     queryset = Coupon.objects.all()
+
+
+class InterestsViewSet(ModelViewSet):
+    http_method_names = ['get']
+    permission_classes = [AllowAny]
+    serializer_class = InterestsSerializer
+    queryset = Interest.objects.all()
