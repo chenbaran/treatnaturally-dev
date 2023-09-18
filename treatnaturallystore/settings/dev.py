@@ -1,11 +1,17 @@
 from .common import *
-
+import stripe
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-7w85$3#lasx-*ks8gflob($s=5ffe3z*ckbzu6h&-gi9wt_r+d'
+STRIPE_PUBLIC_KEY = 'pk_test_51N2XnaKk6BdOIVOwcBnBmHRGup0aWEnalcBgHegTzWfzspVaNIbfqpEvDqctdHMmosBpYeQ5KxqHNNSWAejhvHnf00GLR1aAP3'
+STRIPE_SECRET_KEY = 'sk_test_51N2XnaKk6BdOIVOwt9K0skhMXQAYokm07wtY0s9tY2DbZMODLA2TVmVTj7HZcgEmDjJYtdAQNn73AWb0tUohpf8200XaFuUIZZ'
+WEBHOOK_SECRET_KEY = 'whsec_7993a062d5d590eb8c1785ebdf9591feb7ee7845e8fff6c1f776a6faae02ac56'
+
+webhook_secret = WEBHOOK_SECRET_KEY
+stripe.api_key = STRIPE_SECRET_KEY
 
 ALLOWED_HOSTS = ['*']
 

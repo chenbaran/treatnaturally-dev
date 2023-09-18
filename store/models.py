@@ -181,6 +181,7 @@ class Order(models.Model):
     billing_address = models.ForeignKey(BillingAddress, on_delete=models.PROTECT)
     optional_shipping_address = models.ForeignKey(OptionalShippingAddress, blank=True, null=True, on_delete=models.CASCADE)
     final_price = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], null=True, blank=True)
+    stripe_charge_id = models.CharField(max_length=50, blank=True, null=True)
     class Meta:
         permissions = [
             ('cancel_order', 'Can cancel order')
@@ -230,3 +231,4 @@ class Coupon(models.Model):
     coupon_code = models.CharField(max_length=255)
     discount = models.DecimalField(max_digits=3, decimal_places=0, validators=percentage_validator, null=True, blank=True)
     expiry_date = models.DateField(blank=True, null=True)
+

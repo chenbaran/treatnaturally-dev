@@ -26,6 +26,7 @@ redis = "*"
 flower = "*"
 django-ckeditor = "*"
 django-multiselectfield = "*"
+stripe = "*"
 
 [dev-packages]
 locust = "*"

@@ -234,3 +234,6 @@ class InterestsViewSet(ModelViewSet):
     permission_classes = [AllowAny]
     serializer_class = InterestsSerializer
     queryset = Interest.objects.all()
+
+
+

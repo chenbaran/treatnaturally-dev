@@ -313,3 +313,5 @@ class CouponSerializer(serializers.ModelSerializer):
     class Meta:
         model = Coupon
         fields = ['coupon_code', 'discount', 'expiry_date']
+
+
