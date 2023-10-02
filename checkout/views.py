@@ -4,31 +4,37 @@ from rest_framework.views import APIView
 from treatnaturallystore.settings.dev import webhook_secret
 import stripe
 
+from rest_framework.response import Response
+
 class CreateCheckoutSession(APIView):
-  def post(self, request):
-    dataDict = dict(request.data)
-    price = dataDict['price'][0]
-    product_name = dataDict['product_name'][0]
-    try:
-      checkout_session = stripe.checkout.Session.create(
-        line_items =[{
-        'price_data' :{
-          'currency' : 'usd',  
-            'product_data': {
-              'name': product_name,
-            },
-          'unit_amount': price
-        },
-        'quantity' : 1
-      }],
-        mode= 'payment',
-        success_url= 'https://treatnaturally.co.uk',
-        cancel_url= 'https://treatnaturally.co.uk',
-        )
-      return redirect(checkout_session.url , code=303)
-    except Exception as e:
-        print(e)
-        return e
+    def post(self, request):
+        dataDict = dict(request.data)
+        price = dataDict['price']
+        product_name = dataDict['product_name']
+
+        try:
+            checkout_session = stripe.checkout.Session.create(
+                line_items=[{
+                    'price_data': {
+                        'currency': 'usd',
+                        'product_data': {
+                            'name': product_name,
+                        },
+                        'unit_amount': price
+                    },
+                    'quantity': 1
+                }],
+                mode='payment',
+                success_url='http://localhost:3000/checkout?payment=success',
+                cancel_url='https://treatnaturally.co.uk',
+            )
+            
+            return Response({'session_id': checkout_session.id})
+
+        except Exception as e:
+            print(e)
+            return Response({"error": str(e)}, status=400)
+
     
 
 class WebHook(APIView):
