@@ -7,7 +7,7 @@ def send_user_registration_mail(user):
     subject = 'Welcome To TreatNaturally!'
     message = f'<h3>Hi {user.first_name}!</h3>'
     message += f'<h4>Welcome to TreatNaturally - Your one-stop-shop for natural & organic health supplements.</h4>'
-    message += f'<h4>Your registration has been completed successfully and you may continue shopping on our website.</h4>'
+    message += f'<h4>Your subscription plan: {user.customer.membership} has been updated successfully and you may continue shopping on our website.</h4>'
     message += f'<a style="color: white; background-color: #04aa6d; padding: 5px 10px; font-weight: bold;" href="staging.treatnaturally.co.uk">Shop Now</a>'
     message += '<br><br>Thank you for shopping at <a href="https://treatnaturally.co.uk">TreatNaturally!</a>'
     message += '<br><br>IPURE NUTRITION <br>311 HALE ROAD, HALE BARNS, WA15 8SS'

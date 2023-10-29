@@ -14,10 +14,10 @@ def on_order_created(sender, **kwargs):
 
 
 
-@receiver(pre_save, sender=settings.AUTH_USER_MODEL)
-def send_registration_success(sender, instance, **kwargs):
-    if instance._state.adding:
-        transaction.on_commit(lambda: send_user_registration_mail(instance))
+# @receiver(pre_save, sender=settings.AUTH_USER_MODEL)
+# def send_registration_success(sender, instance, **kwargs):
+#     if instance._state.adding:
+#         transaction.on_commit(lambda: send_user_registration_mail(instance))
 
 
 # send new contact form entry alert to admin

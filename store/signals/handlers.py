@@ -4,11 +4,20 @@ from django.dispatch import receiver
 from django.db import transaction
 from store.models import BillingAddress, Customer, OptionalShippingAddress, Order
 from store.emails import send_order_alert_to_admin, send_order_confirmation_email
+from core.emails import send_user_registration_mail
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)
 def create_customer_for_new_user(sender, **kwargs):
     if kwargs['created']:
       Customer.objects.create(user=kwargs['instance'])
+
+
+@receiver(post_save, sender=Customer)
+def send_user_creation_email_on_membership_update(sender, instance, **kwargs):
+    customer = instance
+    if customer.membership:
+        if post_save:
+            transaction.on_commit(lambda:send_user_registration_mail(instance.user))
 
 
 @receiver(post_save, sender=BillingAddress)

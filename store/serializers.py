@@ -255,7 +255,10 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ['id', 'access', 'user', 'user_id', 'first_name', 'last_name', 'email', 'phone', 'birth_date', 'membership', 'membership_discount', 'orders', 'billing_address', 'optional_shipping_address', 'interests',]
+        fields = ['id', 'access', 'user', 'user_id', 'first_name',
+                  'last_name', 'email', 'phone', 'birth_date', 'membership',
+                  'membership_discount', 'orders', 'billing_address', 'optional_shipping_address',
+                  'interests', 'stripe_customer_id']
 
     access = serializers.SerializerMethodField(method_name='get_access_true', read_only=True)
     email = serializers.SerializerMethodField(method_name='get_email', read_only=True)

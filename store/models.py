@@ -135,11 +135,12 @@ class Customer(models.Model):
     phone = models.CharField(max_length=255, null=True, blank=True)
     birth_date = models.DateField(null=True, blank=True)
     membership = models.ForeignKey(Membership, on_delete=models.SET_NULL, null=True, blank=True)
-    interests = models.ManyToManyField(Interest, blank=True)
+    interests = models.ManyToManyField(Interest, blank=True, null=True)
     billing_address = models.OneToOneField(BillingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_billing_address')
     optional_shipping_address = models.OneToOneField(OptionalShippingAddress, blank=True, null=True, on_delete=models.SET_NULL, related_name='customer_optional_shipping_address')
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    stripe_customer_id = models.CharField(max_length=255, null=True, blank=True)
 
     def save(self, *args, **kwargs):
         if self.billing_address and not self.billing_address.pk:
