@@ -140,6 +140,26 @@ class WebHook(APIView):
                 # If customer not found, return a 400 so Stripe retries the webhook
                 return JsonResponse({"error": "Customer not found. Will retry."}, status=400)
 
+        elif event.type == 'customer.subscription.created':
+            stripe_customer_id = event.data.object.customer
+            stripe_customer = stripe.Customer.retrieve(stripe_customer_id) 
+            username = stripe_customer.metadata.username
+            try:
+                user = User.objects.get(username=username)
+            except User.DoesNotExist:
+                # If user not found, return a 400 so Stripe retries the webhook
+                return JsonResponse({"error": "User not found. Will retry."}, status=400)
+            customer = Customer.objects.get(user=user)
+
+            try:
+                lookup_key = event['data']['object']['items']['data'][0]['price']['lookup_key']
+                membership_label = lookup_key.capitalize()
+                customer_membership = Membership.objects.get(label=membership_label)
+                customer.membership = customer_membership
+                customer.save()
+            except Customer.DoesNotExist:
+                return JsonResponse({"error": "Customer not found. Will retry."}, status=400)
+
         elif event.type == 'customer.subscription.updated':
             stripe_customer_id = event.data.object.customer
             stripe_customer = stripe.Customer.retrieve(stripe_customer_id) 
@@ -151,25 +171,32 @@ class WebHook(APIView):
                 return JsonResponse({"error": "User not found. Will retry."}, status=400)
             customer = Customer.objects.get(user=user)
 
-            if event.data.object.cancellation_details.reason:
-                try:
-                    membership = Membership.objects.get(label='Free')
-                    customer.membership = membership
-                    customer.save
-                except e:
-                    return JsonResponse({"error": e}, status=400)
-            
-            else:
-                try:
-                    lookup_key = event['data']['object']['items']['data'][0]['price']['lookup_key']
-                    membership_label = lookup_key.capitalize()
-                    customer_membership = Membership.objects.get(label=membership_label)
-                    customer.membership = customer_membership
-                    customer.save()
-                except Customer.DoesNotExist:
-                    return JsonResponse({"error": "Customer not found. Will retry."}, status=400)
+            try:
+                lookup_key = event['data']['object']['items']['data'][0]['price']['lookup_key']
+                membership_label = lookup_key.capitalize()
+                customer_membership = Membership.objects.get(label=membership_label)
+                customer.membership = customer_membership
+                customer.save()
+            except Customer.DoesNotExist:
+                return JsonResponse({"error": "Customer not found. Will retry."}, status=400)
 
-
+        elif event.type == 'customer.subscription.deleted':
+            stripe_customer_id = event.data.object.customer
+            stripe_customer = stripe.Customer.retrieve(stripe_customer_id) 
+            username = stripe_customer.metadata.username
+            try:
+                user = User.objects.get(username=username)
+            except User.DoesNotExist:
+                # If user not found, return a 400 so Stripe retries the webhook
+                return JsonResponse({"error": "User not found. Will retry."}, status=400)
+            customer = Customer.objects.get(user=user)
+            try:
+                membership = Membership.objects.get(label='Free')
+                customer.membership = membership
+                customer.save()
+            except e:
+                return JsonResponse({"error": e}, status=400)
+        
 
         else:
             print('Unhandled event type {}'.format(event.type))
